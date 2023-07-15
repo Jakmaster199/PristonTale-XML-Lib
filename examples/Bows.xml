@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../schemas/items.xsd">
+
+    <item id="WS110" type="Weapon" name="Mist">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS110.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="30000" />
+        <set name="durability" value="100;100" />
+        <stats>
+            <add stat="attack_damage" value="19;19;23;23" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="100;100" />
+            <add stat="attack_range" value="245" />
+            <add stat="critical_rate" value="12" />
+        </stats>
+        <req>
+            <base stat="level" value="40" />
+        </req>
+    </item>
+    <item id="WS122" type="Weapon" name="Revenge Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS122.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="1800000" />
+        <set name="durability" value="70;70" />
+        <stats>
+            <add stat="attack_damage" value="60;60;81;81" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="240;240" />
+            <add stat="attack_range" value="270" />
+            <add stat="critical_rate" value="25" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+        </req>
+    </item>
+    <item id="WS101" type="Weapon" name="Short Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS101.bmp" />
+        <set name="weight" value="3" />
+        <set name="price" value="70" />
+        <set name="durability" value="25;30" />
+        <stats>
+            <add stat="attack_damage" value="1;1;3;4" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="15;21" />
+            <add stat="attack_range" value="190" />
+            <add stat="critical_rate" value="2" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WS102" type="Weapon" name="Horned Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS102.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="300" />
+        <set name="durability" value="18;32" />
+        <stats>
+            <add stat="attack_damage" value="2;2;3;5" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="20;29" />
+            <add stat="attack_range" value="170" />
+            <add stat="critical_rate" value="2" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WS103" type="Weapon" name="Hand Crossbow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS103.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="720" />
+        <set name="durability" value="23;38" />
+        <stats>
+            <add stat="attack_damage" value="3;3;5;7" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="24;34" />
+            <add stat="attack_range" value="190" />
+            <add stat="critical_rate" value="3" />
+        </stats>
+        <req>
+            <base stat="agility" value="32" />
+        </req>
+    </item>
+    <item id="WS104" type="Weapon" name="CrossBow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS104.bmp" />
+        <set name="weight" value="10" />
+        <set name="price" value="1300" />
+        <set name="durability" value="36;51" />
+        <stats>
+            <add stat="attack_damage" value="4;4;7;9" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="32;40" />
+            <add stat="attack_range" value="200" />
+            <add stat="critical_rate" value="4" />
+        </stats>
+        <req>
+            <base stat="level" value="6" />
+            <base stat="talent" value="24" />
+            <base stat="agility" value="36" />
+        </req>
+    </item>
+    <item id="WS105" type="Weapon" name="Battle Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS105.bmp" />
+        <set name="weight" value="13" />
+        <set name="price" value="2800" />
+        <set name="durability" value="37;58" />
+        <stats>
+            <add stat="attack_damage" value="4;5;9;11" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="38;49" />
+            <add stat="attack_range" value="210" />
+            <add stat="critical_rate" value="5" />
+        </stats>
+        <req>
+            <base stat="level" value="9" />
+            <base stat="talent" value="36" />
+            <base stat="agility" value="42" />
+        </req>
+    </item>
+    <item id="WS106" type="Weapon" name="Great Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS106.bmp" />
+        <set name="weight" value="16" />
+        <set name="price" value="4800" />
+        <set name="durability" value="43;66" />
+        <stats>
+            <add stat="attack_damage" value="5;7;10;13" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="42;53" />
+            <add stat="attack_range" value="215" />
+            <add stat="critical_rate" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="15" />
+            <base stat="strength" value="33" />
+            <base stat="talent" value="40" />
+            <base stat="agility" value="46" />
+        </req>
+    </item>
+    <item id="WS107" type="Weapon" name="War Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS107.bmp" />
+        <set name="weight" value="19" />
+        <set name="price" value="9300" />
+        <set name="durability" value="50;72" />
+        <stats>
+            <add stat="attack_damage" value="7;9;12;15" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="44;56" />
+            <add stat="attack_range" value="225" />
+            <add stat="critical_rate" value="7" />
+        </stats>
+        <req>
+            <base stat="level" value="20" />
+            <base stat="strength" value="40" />
+            <base stat="talent" value="44" />
+            <base stat="agility" value="54" />
+        </req>
+    </item>
+    <item id="WS108" type="Weapon" name="Great CrossBow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS108.bmp" />
+        <set name="weight" value="26" />
+        <set name="price" value="16000" />
+        <set name="durability" value="64;78" />
+        <stats>
+            <add stat="attack_damage" value="9;11;13;16" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="47;62" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="25" />
+            <base stat="strength" value="46" />
+            <base stat="talent" value="50" />
+            <base stat="agility" value="60" />
+        </req>
+    </item>
+    <item id="WS109" type="Weapon" name="Metal Hand CrossBow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS109.bmp" />
+        <set name="weight" value="22" />
+        <set name="price" value="25000" />
+        <set name="durability" value="56;72" />
+        <stats>
+            <add stat="attack_damage" value="10;12;14;17" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="51;68" />
+            <add stat="attack_range" value="215" />
+            <add stat="critical_rate" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="30" />
+            <base stat="strength" value="48" />
+            <base stat="talent" value="50" />
+            <base stat="agility" value="65" />
+        </req>
+    </item>
+    <item id="WS110" type="Weapon" name="Double CrossBow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS110.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="33000" />
+        <set name="durability" value="72;92" />
+        <stats>
+            <add stat="attack_damage" value="11;14;17;20" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="56;70" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="12" />
+        </stats>
+        <req>
+            <base stat="level" value="36" />
+            <base stat="strength" value="50" />
+            <base stat="talent" value="55" />
+            <base stat="agility" value="78" />
+        </req>
+    </item>
+    <item id="WS111" type="Weapon" name="Bone Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS111.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="40000" />
+        <set name="durability" value="68;90" />
+        <stats>
+            <add stat="attack_damage" value="13;15;19;21" />
+            <add stat="attack_speed" value="5" />
+            <add stat="attack_rating" value="59;76" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="41" />
+            <base stat="strength" value="56" />
+            <base stat="talent" value="56" />
+            <base stat="agility" value="82" />
+        </req>
+    </item>
+    <item id="WS112" type="Weapon" name="Sagittarius">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS112.bmp" />
+        <set name="weight" value="32" />
+        <set name="price" value="47000" />
+        <set name="durability" value="75;94" />
+        <stats>
+            <add stat="attack_damage" value="15;17;22;25" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="61;85" />
+            <add stat="attack_range" value="235" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="47" />
+            <base stat="strength" value="60" />
+            <base stat="talent" value="60" />
+            <base stat="agility" value="90" />
+        </req>
+    </item>
+    <item id="WS113" type="Weapon" name="Ancient Crossbow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS113.bmp" />
+        <set name="weight" value="37" />
+        <set name="price" value="52000" />
+        <set name="durability" value="88;114" />
+        <stats>
+            <add stat="attack_damage" value="16;18;25;27" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="67;92" />
+            <add stat="attack_range" value="235" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="53" />
+            <base stat="strength" value="64" />
+            <base stat="talent" value="65" />
+            <base stat="agility" value="95" />
+        </req>
+    </item>
+    <item id="WS114" type="Weapon" name="Titan bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS114.bmp" />
+        <set name="weight" value="39" />
+        <set name="price" value="58000" />
+        <set name="durability" value="83;102" />
+        <stats>
+            <add stat="attack_damage" value="18;20;28;31" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="74;98" />
+            <add stat="attack_range" value="240" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="59" />
+            <base stat="strength" value="70" />
+            <base stat="talent" value="70" />
+            <base stat="agility" value="114" />
+        </req>
+    </item>
+    <item id="WS115" type="Weapon" name="Chaos bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS115.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="64000" />
+        <set name="durability" value="66;86" />
+        <stats>
+            <add stat="attack_damage" value="20;23;32;35" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="68;85" />
+            <add stat="attack_range" value="240" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="64" />
+            <base stat="strength" value="60" />
+            <base stat="spirit" value="36" />
+            <base stat="talent" value="72" />
+            <base stat="agility" value="130" />
+        </req>
+    </item>
+    <item id="WS116" type="Weapon" name="Swift bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS116.bmp" />
+        <set name="weight" value="35" />
+        <set name="price" value="76000" />
+        <set name="durability" value="90;110" />
+        <stats>
+            <add stat="attack_damage" value="22;24;35;39" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="90;110" />
+            <add stat="attack_range" value="245" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="70" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="76" />
+            <base stat="agility" value="136" />
+        </req>
+    </item>
+    <item id="WS117" type="Weapon" name="Relic Crossbow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS117.bmp" />
+        <set name="weight" value="42" />
+        <set name="price" value="150000" />
+        <set name="durability" value="104;126" />
+        <stats>
+            <add stat="attack_damage" value="25;27;41;44" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="85;120" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="75" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="140" />
+        </req>
+    </item>
+    <item id="WS118" type="Weapon" name="Thunder Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS118.bmp" />
+        <set name="weight" value="48" />
+        <set name="price" value="260000" />
+        <set name="durability" value="110;132" />
+        <stats>
+            <add stat="attack_damage" value="29;32;46;49" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="89;124" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="76" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="146" />
+        </req>
+    </item>
+    <item id="WS119" type="Weapon" name="Wave Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS119.bmp" />
+        <set name="weight" value="51" />
+        <set name="price" value="410000" />
+        <set name="durability" value="116;140" />
+        <stats>
+            <add stat="attack_damage" value="33;36;51;54" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="96;130" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="76" />
+            <base stat="talent" value="84" />
+            <base stat="agility" value="150" />
+        </req>
+    </item>
+    <item id="WS120" type="Weapon" name="Grand Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS120.bmp" />
+        <set name="weight" value="54" />
+        <set name="price" value="690000" />
+        <set name="durability" value="122;144" />
+        <stats>
+            <add stat="attack_damage" value="38;40;56;59" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="104;135" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="86" />
+            <base stat="agility" value="156" />
+        </req>
+    </item>
+    <item id="WS121" type="Weapon" name="Mirage Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS121.bmp" />
+        <set name="weight" value="57" />
+        <set name="price" value="1100000" />
+        <set name="durability" value="130;155" />
+        <stats>
+            <add stat="attack_damage" value="42;45;62;65" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="112;144" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="160" />
+        </req>
+    </item>
+    <item id="WS122" type="Weapon" name="Dragon Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS122.bmp" />
+        <set name="weight" value="60" />
+        <set name="price" value="1900000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="47;50;68;71" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="120;150" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="166" />
+        </req>
+    </item>
+    <item id="WS123" type="Weapon" name="Wyvern Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS123.bmp" />
+        <set name="weight" value="63" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="51;54;74;77" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="128;138" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="18" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="172" />
+        </req>
+    </item>
+    <item id="WS124" type="Weapon" name="Immortal Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS124.bmp" />
+        <set name="weight" value="66" />
+        <set name="price" value="2100000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="56;60;80;83" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="136;158" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="18" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="180" />
+        </req>
+    </item>
+    <item id="WS125" type="Weapon" name="Salamander Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS125.bmp" />
+        <set name="weight" value="69" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="66;70;89;92" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="144;166" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="105" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="188" />
+        </req>
+    </item>
+    <item id="WS126" type="Weapon" name="Cronus Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS126.bmp" />
+        <set name="weight" value="73" />
+        <set name="price" value="2300000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="76;80;99;102" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="156;178" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="85" />
+            <base stat="agility" value="195" />
+        </req>
+    </item>
+    <item id="WS127" type="Weapon" name="Arco Rogue">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS127.bmp" />
+        <set name="weight" value="75" />
+        <set name="price" value="1850000" />
+        <set name="durability" value="173;187" />
+        <stats>
+            <add stat="attack_damage" value="78;82;100;103" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="172;200" />
+            <add stat="attack_range" value="290" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="208" />
+        </req>
+    </item>
+    <item id="WS128" type="Weapon" name="Mythology Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS128.bmp" />
+        <set name="weight" value="78" />
+        <set name="price" value="2800000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="86;90;109;112" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="168;190" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="110" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="85" />
+            <base stat="agility" value="202" />
+        </req>
+    </item>
+    <item id="WS129" type="Weapon" name="Deadly Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS129.bmp" />
+        <set name="weight" value="83" />
+        <set name="price" value="3100000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="97;100;119;122" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="180;202" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="112" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="209" />
+        </req>
+    </item>
+    <item id="WS130" type="Weapon" name="Flame Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS130.bmp" />
+        <set name="weight" value="88" />
+        <set name="price" value="3300000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="107;110;129;132" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="195;217" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="216" />
+        </req>
+    </item>
+    <item id="WS131" type="Weapon" name="Verus Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS131.bmp" />
+        <set name="weight" value="88" />
+        <set name="price" value="3300000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="112;115;134;137" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="202;224" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="216" />
+        </req>
+    </item>
+    <item id="WS132" type="Weapon" name="Arco Deadly">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS132.bmp" />
+        <set name="weight" value="85" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="210;225" />
+        <stats>
+            <add stat="attack_damage" value="100;105;120;124" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="213;245" />
+            <add stat="attack_range" value="295" />
+            <add stat="critical_rate" value="21" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="134" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="242" />
+        </req>
+    </item>
+    <item id="WS133" type="Weapon" name="Arco Sinistro">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS133.bmp" />
+        <set name="weight" value="72" />
+        <set name="price" value="4600000" />
+        <set name="durability" value="170;190" />
+        <stats>
+            <add stat="attack_damage" value="109;125;140;152" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="190;220" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="149" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="85" />
+            <base stat="agility" value="210" />
+        </req>
+    </item>
+    <item id="WS134" type="Weapon" name="Arco Hallowen 2M">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS134.bmp" />
+        <set name="weight" value="72" />
+        <set name="price" value="4800000" />
+        <set name="durability" value="175;195" />
+        <stats>
+            <add stat="attack_damage" value="115;132;148;160" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="203;230" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="140" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="85" />
+            <base stat="agility" value="220" />
+        </req>
+    </item>
+    <item id="WS151" type="Weapon" name="Mirage Bow(5H)">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS151.bmp" />
+        <set name="weight" value="57" />
+        <set name="price" value="4800000" />
+        <set name="durability" value="130;155" />
+        <stats>
+            <add stat="attack_damage" value="42;45;62;65" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="112;144" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="160" />
+        </req>
+    </item>
+    <item id="WS152" type="Weapon" name="Wyvern Bow(5H)">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS152.bmp" />
+        <set name="weight" value="63" />
+        <set name="price" value="4800000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="51;54;74;77" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="128;138" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="18" />
+        </stats>
+        <req>
+            <base stat="level" value="90" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="172" />
+        </req>
+    </item>
+    <item id="WS153" type="Weapon" name="Immortal Bow(5H)">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS153.bmp" />
+        <set name="weight" value="66" />
+        <set name="price" value="4800000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="56;60;80;83" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="136;158" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="18" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="180" />
+        </req>
+    </item>
+    <item id="WS112" type="Weapon" name="Curio">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS112.bmp" />
+        <set name="weight" value="32" />
+        <set name="price" value="47000" />
+        <set name="durability" value="94;94" />
+        <stats>
+            <add stat="attack_damage" value="17;17;25;25" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="85;85" />
+            <add stat="attack_range" value="235" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="47" />
+            <base stat="strength" value="70" />
+            <base stat="talent" value="60" />
+            <base stat="agility" value="95" />
+        </req>
+    </item>
+    <item id="WS105" type="Weapon" name="Dion's Bow">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS105.bmp" />
+        <set name="weight" value="17" />
+        <set name="price" value="18000" />
+        <set name="durability" value="58;58" />
+        <stats>
+            <add stat="attack_damage" value="7;7;19;19" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="85;85" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="12" />
+            <base stat="agility" value="60" />
+        </req>
+    </item>
+    <item id="WS111" type="Weapon" name="Bone Age">
+        <set name="weapon_type" value="Bow" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Bow\itWS111.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="50000" />
+        <set name="durability" value="90;90" />
+        <stats>
+            <add stat="attack_damage" value="16;16;24;24" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="80;80" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="12" />
+        </stats>
+        <req>
+            <base stat="level" value="41" />
+            <base stat="strength" value="60" />
+            <base stat="talent" value="50" />
+            <base stat="agility" value="90" />
+        </req>
+    </item>
+
+
+</list>

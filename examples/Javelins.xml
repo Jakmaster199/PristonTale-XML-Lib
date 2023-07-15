@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../schemas/items.xsd">
+    <item id="WT109" type="Weapon" name="Anaconda">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT109.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="30000" />
+        <stats>
+            <add stat="attack_damage" value="16;16;22;22" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="100;100" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="40" />
+        </req>
+    </item>
+    <item id="WT121" type="Weapon" name="Salamander Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT121.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="1800000" />
+        <set name="durability" value="70;70" />
+        <stats>
+            <add stat="attack_damage" value="58;58;73;73" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="265;265" />
+            <add stat="attack_range" value="265" />
+            <add stat="critical_rate" value="22" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+        </req>
+    </item>
+    <item id="WT101" type="Weapon" name="Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT101.bmp" />
+        <set name="weight" value="2" />
+        <set name="price" value="100" />
+        <stats>
+            <add stat="attack_damage" value="1;2;3;4" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="25;34" />
+            <add stat="attack_range" value="180" />
+            <add stat="critical_rate" value="2" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WT102" type="Weapon" name="War Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT102.bmp" />
+        <set name="weight" value="2" />
+        <set name="price" value="280" />
+        <stats>
+            <add stat="attack_damage" value="2;3;4;5" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="30;38" />
+            <add stat="attack_range" value="185" />
+            <add stat="critical_rate" value="3" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WT103" type="Weapon" name="Edged Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT103.bmp" />
+        <set name="weight" value="2" />
+        <set name="price" value="500" />
+        <stats>
+            <add stat="attack_damage" value="3;4;5;6" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="36;45" />
+            <add stat="attack_range" value="190" />
+            <add stat="critical_rate" value="4" />
+        </stats>
+        <req>
+            <base stat="talent" value="26" />
+        </req>
+    </item>
+    <item id="WT104" type="Weapon" name="Steel Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT104.bmp" />
+        <set name="weight" value="4" />
+        <set name="price" value="1200" />
+        <stats>
+            <add stat="attack_damage" value="4;5;6;7" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="40;48" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="4" />
+        </stats>
+        <req>
+            <base stat="level" value="6" />
+            <base stat="strength" value="30" />
+            <base stat="talent" value="26" />
+        </req>
+    </item>
+    <item id="WT105" type="Weapon" name="Double Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT105.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="3500" />
+        <stats>
+            <add stat="attack_damage" value="5;6;8;10" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="46;52" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="5" />
+        </stats>
+        <req>
+            <base stat="level" value="11" />
+            <base stat="talent" value="37" />
+            <base stat="agility" value="37" />
+        </req>
+    </item>
+    <item id="WT106" type="Weapon" name="Elven Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT106.bmp" />
+        <set name="weight" value="3" />
+        <set name="price" value="6400" />
+        <stats>
+            <add stat="attack_damage" value="6;7;9;11" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="48;52" />
+            <add stat="attack_range" value="200" />
+            <add stat="critical_rate" value="5" />
+        </stats>
+        <req>
+            <base stat="level" value="16" />
+            <base stat="spirit" value="30" />
+            <base stat="talent" value="53" />
+        </req>
+    </item>
+    <item id="WT107" type="Weapon" name="Fatal Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT107.bmp" />
+        <set name="weight" value="6" />
+        <set name="price" value="11000" />
+        <stats>
+            <add stat="attack_damage" value="7;8;11;13" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="60;65" />
+            <add stat="attack_range" value="200" />
+            <add stat="critical_rate" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="22" />
+            <base stat="strength" value="45" />
+            <base stat="talent" value="54" />
+            <base stat="agility" value="40" />
+        </req>
+    </item>
+    <item id="WT108" type="Weapon" name="Matal Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT108.bmp" />
+        <set name="weight" value="8" />
+        <set name="price" value="18000" />
+        <stats>
+            <add stat="attack_damage" value="9;11;13;16" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="52;58" />
+            <add stat="attack_range" value="205" />
+            <add stat="critical_rate" value="5" />
+        </stats>
+        <req>
+            <base stat="level" value="30" />
+            <base stat="strength" value="50" />
+            <base stat="talent" value="55" />
+            <base stat="agility" value="50" />
+        </req>
+    </item>
+    <item id="WT109" type="Weapon" name="Cobra Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT109.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="28000" />
+        <stats>
+            <add stat="attack_damage" value="10;12;15;18" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="54;62" />
+            <add stat="attack_range" value="210" />
+            <add stat="critical_rate" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="37" />
+            <base stat="strength" value="55" />
+            <base stat="talent" value="60" />
+            <base stat="agility" value="60" />
+        </req>
+    </item>
+    <item id="WT110" type="Weapon" name="Winged Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT110.bmp" />
+        <set name="weight" value="6" />
+        <set name="price" value="35000" />
+        <stats>
+            <add stat="attack_damage" value="11;13;16;19" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="60;68" />
+            <add stat="attack_range" value="220" />
+            <add stat="critical_rate" value="7" />
+        </stats>
+        <req>
+            <base stat="level" value="44" />
+            <base stat="strength" value="65" />
+            <base stat="talent" value="70" />
+            <base stat="agility" value="70" />
+        </req>
+    </item>
+    <item id="WT111" type="Weapon" name="Holy Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT111.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="44000" />
+        <stats>
+            <add stat="attack_damage" value="13;15;19;23" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="70;80" />
+            <add stat="attack_range" value="215" />
+            <add stat="critical_rate" value="7" />
+        </stats>
+        <req>
+            <base stat="level" value="50" />
+            <base stat="strength" value="55" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="70" />
+            <base stat="agility" value="55" />
+        </req>
+    </item>
+    <item id="WT112" type="Weapon" name="Throwing Trident">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT112.bmp" />
+        <set name="weight" value="9" />
+        <set name="price" value="52000" />
+        <stats>
+            <add stat="attack_damage" value="15;17;22;25" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="60;72" />
+            <add stat="attack_range" value="220" />
+            <add stat="critical_rate" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="55" />
+            <base stat="strength" value="70" />
+            <base stat="talent" value="74" />
+            <base stat="agility" value="84" />
+        </req>
+    </item>
+    <item id="WT113" type="Weapon" name="Wyvern Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT113.bmp" />
+        <set name="weight" value="8" />
+        <set name="price" value="60000" />
+        <stats>
+            <add stat="attack_damage" value="16;19;25;28" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="64;80" />
+            <add stat="attack_range" value="225" />
+            <add stat="critical_rate" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="60" />
+            <base stat="strength" value="70" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="90" />
+        </req>
+    </item>
+    <item id="WT114" type="Weapon" name="Twisted Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT114.bmp" />
+        <set name="weight" value="10" />
+        <set name="price" value="70000" />
+        <stats>
+            <add stat="attack_damage" value="18;22;27;31" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="70;96" />
+            <add stat="attack_range" value="225" />
+            <add stat="critical_rate" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="65" />
+            <base stat="strength" value="70" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="100" />
+        </req>
+    </item>
+    <item id="WT115" type="Weapon" name="Link Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT115.bmp" />
+        <set name="weight" value="11" />
+        <set name="price" value="77000" />
+        <stats>
+            <add stat="attack_damage" value="20;23;31;34" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="82;104" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="70" />
+            <base stat="strength" value="70" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="112" />
+        </req>
+    </item>
+    <item id="WT116" type="Weapon" name="Mirage Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT116.bmp" />
+        <set name="weight" value="13" />
+        <set name="price" value="150000" />
+        <stats>
+            <add stat="attack_damage" value="24;27;35;38" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="95;115" />
+            <add stat="attack_range" value="240" />
+            <add stat="critical_rate" value="10" />
+        </stats>
+        <req>
+            <base stat="level" value="75" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="84" />
+            <base stat="agility" value="110" />
+        </req>
+    </item>
+    <item id="WT117" type="Weapon" name="Mystic Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT117.bmp" />
+        <set name="weight" value="15" />
+        <set name="price" value="250000" />
+        <stats>
+            <add stat="attack_damage" value="28;30;40;43" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="104;124" />
+            <add stat="attack_range" value="240" />
+            <add stat="critical_rate" value="12" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="72" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="84" />
+            <base stat="agility" value="112" />
+        </req>
+    </item>
+    <item id="WT118" type="Weapon" name="eXtreme Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT118.bmp" />
+        <set name="weight" value="18" />
+        <set name="price" value="400000" />
+        <stats>
+            <add stat="attack_damage" value="31;33;45;48" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="112;130" />
+            <add stat="attack_range" value="240" />
+            <add stat="critical_rate" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="74" />
+            <base stat="talent" value="86" />
+            <base stat="agility" value="117" />
+        </req>
+    </item>
+    <item id="WT119" type="Weapon" name="Dragon Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT119.bmp" />
+        <set name="weight" value="20" />
+        <set name="price" value="680000" />
+        <stats>
+            <add stat="attack_damage" value="35;38;50;53" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="120;140" />
+            <add stat="attack_range" value="240" />
+            <add stat="critical_rate" value="12" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="88" />
+            <base stat="agility" value="124" />
+        </req>
+    </item>
+    <item id="WT120" type="Weapon" name="Spike Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT120.bmp" />
+        <set name="weight" value="25" />
+        <set name="price" value="1100000" />
+        <stats>
+            <add stat="attack_damage" value="40;43;55;58" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="128;148" />
+            <add stat="attack_range" value="240" />
+            <add stat="critical_rate" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="130" />
+        </req>
+    </item>
+    <item id="WT121" type="Weapon" name="Legend Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT121.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="1800000" />
+        <stats>
+            <add stat="attack_damage" value="45;48;60;63" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="136;156" />
+            <add stat="attack_range" value="245" />
+            <add stat="critical_rate" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="130" />
+        </req>
+    </item>
+    <item id="WT122" type="Weapon" name="Immortal Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT122.bmp" />
+        <set name="weight" value="31" />
+        <set name="price" value="1900000" />
+        <stats>
+            <add stat="attack_damage" value="51;54;65;68" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="144;165" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="140" />
+        </req>
+    </item>
+    <item id="WT123" type="Weapon" name="Heretic Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT123.bmp" />
+        <set name="weight" value="36" />
+        <set name="price" value="2000000" />
+        <stats>
+            <add stat="attack_damage" value="56;59;71;74" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="152;172" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="150" />
+        </req>
+    </item>
+    <item id="WT124" type="Weapon" name="Salamander Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT124.bmp" />
+        <set name="weight" value="39" />
+        <set name="price" value="2100000" />
+        <stats>
+            <add stat="attack_damage" value="67;71;87;90" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="160;180" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="15" />
+        </stats>
+        <req>
+            <base stat="level" value="105" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="155" />
+        </req>
+    </item>
+    <item id="WT125" type="Weapon" name="Cronus Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT125.bmp" />
+        <set name="weight" value="43" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="77;81;97;100" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="168;188" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="95" />
+            <base stat="agility" value="162" />
+        </req>
+    </item>
+    <item id="WT126" type="Weapon" name="Lan?a Aben?oada">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT126.bmp" />
+        <set name="weight" value="43" />
+        <set name="price" value="1750000" />
+        <stats>
+            <add stat="attack_damage" value="82;86;101;105" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="190;210" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="102" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="185" />
+        </req>
+    </item>
+    <item id="WT127" type="Weapon" name="Mythology Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT127.bmp" />
+        <set name="weight" value="48" />
+        <set name="price" value="2700000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="87;91;107;110" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="176;196" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="110" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="95" />
+            <base stat="agility" value="169" />
+        </req>
+    </item>
+    <item id="WT128" type="Weapon" name="Deadly Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT128.bmp" />
+        <set name="weight" value="53" />
+        <set name="price" value="3000000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="95;98;115;118" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="184;204" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="112" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="100" />
+            <base stat="agility" value="176" />
+        </req>
+    </item>
+    <item id="WT129" type="Weapon" name="Flame Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT129.bmp" />
+        <set name="weight" value="58" />
+        <set name="price" value="3200000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="103;106;123;126" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="192;212" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="100" />
+            <base stat="agility" value="183" />
+        </req>
+    </item>
+    <item id="WT130" type="Weapon" name="Verus Javelin">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT130.bmp" />
+        <set name="weight" value="58" />
+        <set name="price" value="3200000" />
+        <set name="durability" value="136;155" />
+        <stats>
+            <add stat="attack_damage" value="107;110;127;130" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="196;216" />
+            <add stat="attack_range" value="255" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="82" />
+            <base stat="talent" value="100" />
+            <base stat="agility" value="183" />
+        </req>
+    </item>
+    <item id="WT131" type="Weapon" name="Lança Chaotic">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT131.bmp" />
+        <set name="weight" value="58" />
+        <set name="price" value="2080000" />
+        <stats>
+            <add stat="attack_damage" value="96;100;116;120" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="245;260" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="18" />
+        </stats>
+        <req>
+            <base stat="level" value="134" />
+            <base stat="strength" value="125" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="230" />
+        </req>
+    </item>
+    <item id="WT151" type="Weapon" name="Spike Javelin(5H)">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT151.bmp" />
+        <set name="weight" value="25" />
+        <set name="price" value="2080000" />
+        <stats>
+            <add stat="attack_damage" value="40;43;55;58" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="128;148" />
+            <add stat="attack_range" value="240" />
+            <add stat="critical_rate" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="130" />
+        </req>
+    </item>
+    <item id="WT152" type="Weapon" name="Immortal Javelin(5H)">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT152.bmp" />
+        <set name="weight" value="31" />
+        <set name="price" value="2080000" />
+        <stats>
+            <add stat="attack_damage" value="51;54;65;68" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="144;165" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="90" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="140" />
+        </req>
+    </item>
+    <item id="WT153" type="Weapon" name="Heretic Javelin(5H)">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT153.bmp" />
+        <set name="weight" value="36" />
+        <set name="price" value="2080000" />
+        <stats>
+            <add stat="attack_damage" value="56;59;71;74" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="152;172" />
+            <add stat="attack_range" value="250" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="150" />
+        </req>
+    </item>
+    <item id="WT109" type="Weapon" name="Shark">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT109.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="28000" />
+        <stats>
+            <add stat="attack_damage" value="12;12;18;18" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="62;62" />
+            <add stat="attack_range" value="210" />
+            <add stat="critical_rate" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="37" />
+            <base stat="strength" value="63" />
+            <base stat="talent" value="63" />
+            <base stat="agility" value="63" />
+        </req>
+    </item>
+    <item id="WT110" type="Weapon" name="Wind">
+        <set name="weapon_type" value="Javelin" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Javelin\itWT110.bmp" />
+        <set name="weight" value="10" />
+        <set name="price" value="50000" />
+        <stats>
+            <add stat="attack_damage" value="15;15;20;20" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="68;68" />
+            <add stat="attack_range" value="220" />
+            <add stat="critical_rate" value="7" />
+        </stats>
+        <req>
+            <base stat="level" value="44" />
+            <base stat="strength" value="60" />
+            <base stat="talent" value="70" />
+            <base stat="agility" value="70" />
+        </req>
+    </item>
+
+
+</list>

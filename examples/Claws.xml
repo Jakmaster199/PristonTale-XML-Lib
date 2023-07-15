@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../schemas/items.xsd">
+    <item id="WC108" type="Weapon" name="Ancient Revenge">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC108.bmp" />
+        <set name="weight" value="17" />
+        <set name="price" value="30000" />
+        <set name="durability" value="100;100" />
+        <stats>
+            <add stat="attack_damage" value="18;18;24;24" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="120;120" />
+            <add stat="critical_rate" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="40" />
+        </req>
+    </item>
+    <item id="WC120" type="Weapon" name="Extreme Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC120.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="1800000" />
+        <set name="durability" value="70;70" />
+        <stats>
+            <add stat="attack_damage" value="63;63;80;80" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="278;278" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+        </req>
+    </item>
+    <item id="WC101" type="Weapon" name="Eagle Claw">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC101.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="70" />
+        <set name="durability" value="28;35" />
+        <stats>
+            <add stat="attack_damage" value="1;2;3;5" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="30;38" />
+            <add stat="critical_rate" value="3" />
+        </stats>
+        <req>
+            <base stat="talent" value="22" />
+            <base stat="agility" value="24" />
+        </req>
+    </item>
+    <item id="WC102" type="Weapon" name="Tiger Claw">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC102.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="470" />
+        <set name="durability" value="32;38" />
+        <stats>
+            <add stat="attack_damage" value="2;3;5;7" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="35;42" />
+            <add stat="critical_rate" value="4" />
+        </stats>
+        <req>
+            <base stat="talent" value="24" />
+            <base stat="agility" value="26" />
+        </req>
+    </item>
+    <item id="WC103" type="Weapon" name="Griffin Claw">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC103.bmp" />
+        <set name="weight" value="12" />
+        <set name="price" value="1400" />
+        <set name="durability" value="36;42" />
+        <stats>
+            <add stat="attack_damage" value="3;5;6;9" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="40;50" />
+            <add stat="critical_rate" value="4" />
+        </stats>
+        <req>
+            <base stat="level" value="7" />
+            <base stat="strength" value="25" />
+            <base stat="talent" value="26" />
+            <base stat="agility" value="24" />
+        </req>
+    </item>
+    <item id="WC104" type="Weapon" name="Snake Tooth">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC104.bmp" />
+        <set name="weight" value="14" />
+        <set name="price" value="3500" />
+        <set name="durability" value="40;46" />
+        <stats>
+            <add stat="attack_damage" value="4;5;8;10" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="44;54" />
+            <add stat="critical_rate" value="5" />
+        </stats>
+        <req>
+            <base stat="level" value="10" />
+            <base stat="strength" value="36" />
+            <base stat="talent" value="30" />
+            <base stat="agility" value="30" />
+        </req>
+    </item>
+    <item id="WC105" type="Weapon" name="Lightning Arm">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC105.bmp" />
+        <set name="weight" value="19" />
+        <set name="price" value="6400" />
+        <set name="durability" value="34;48" />
+        <stats>
+            <add stat="attack_damage" value="5;7;10;12" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="50;60" />
+            <add stat="critical_rate" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="16" />
+            <base stat="strength" value="44" />
+            <base stat="talent" value="34" />
+            <base stat="agility" value="34" />
+        </req>
+    </item>
+    <item id="WC106" type="Weapon" name="Fingered Edge">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC106.bmp" />
+        <set name="weight" value="16" />
+        <set name="price" value="9200" />
+        <set name="durability" value="40;52" />
+        <stats>
+            <add stat="attack_damage" value="7;9;13;15" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="54;66" />
+            <add stat="critical_rate" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="22" />
+            <base stat="strength" value="54" />
+            <base stat="talent" value="40" />
+            <base stat="agility" value="40" />
+        </req>
+    </item>
+    <item id="WC107" type="Weapon" name="Hand Blade">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC107.bmp" />
+        <set name="weight" value="18" />
+        <set name="price" value="13000" />
+        <set name="durability" value="42;57" />
+        <stats>
+            <add stat="attack_damage" value="9;11;15;17" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="60;72" />
+            <add stat="critical_rate" value="7" />
+        </stats>
+        <req>
+            <base stat="level" value="30" />
+            <base stat="strength" value="60" />
+            <base stat="talent" value="45" />
+            <base stat="agility" value="45" />
+        </req>
+    </item>
+    <item id="WC108" type="Weapon" name="Pharaoh">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC108.bmp" />
+        <set name="weight" value="17" />
+        <set name="price" value="18000" />
+        <set name="durability" value="44;62" />
+        <stats>
+            <add stat="attack_damage" value="11;13;17;20" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="67;80" />
+            <add stat="critical_rate" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="37" />
+            <base stat="strength" value="70" />
+            <base stat="talent" value="50" />
+            <base stat="agility" value="50" />
+        </req>
+    </item>
+    <item id="WC109" type="Weapon" name="Brutal Claw">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC109.bmp" />
+        <set name="weight" value="20" />
+        <set name="price" value="25000" />
+        <set name="durability" value="50;65" />
+        <stats>
+            <add stat="attack_damage" value="13;15;20;23" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="72;88" />
+            <add stat="critical_rate" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="44" />
+            <base stat="strength" value="84" />
+            <base stat="talent" value="55" />
+            <base stat="agility" value="55" />
+        </req>
+    </item>
+    <item id="WC110" type="Weapon" name="Hydra Claw">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC110.bmp" />
+        <set name="weight" value="23" />
+        <set name="price" value="32000" />
+        <set name="durability" value="50;75" />
+        <stats>
+            <add stat="attack_damage" value="14;17;24;27" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="80;95" />
+            <add stat="critical_rate" value="10" />
+        </stats>
+        <req>
+            <base stat="level" value="50" />
+            <base stat="strength" value="90" />
+            <base stat="talent" value="61" />
+            <base stat="agility" value="61" />
+        </req>
+    </item>
+    <item id="WC111" type="Weapon" name="Leviathan">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC111.bmp" />
+        <set name="weight" value="26" />
+        <set name="price" value="39000" />
+        <set name="durability" value="62;85" />
+        <stats>
+            <add stat="attack_damage" value="17;20;26;28" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="88;100" />
+            <add stat="critical_rate" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="55" />
+            <base stat="strength" value="80" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="65" />
+            <base stat="agility" value="65" />
+        </req>
+    </item>
+    <item id="WC112" type="Weapon" name="Wyvern Claw">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC112.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="47000" />
+        <set name="durability" value="60;92" />
+        <stats>
+            <add stat="attack_damage" value="19;22;28;31" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="95;108" />
+            <add stat="critical_rate" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="60" />
+            <base stat="strength" value="100" />
+            <base stat="talent" value="76" />
+            <base stat="agility" value="76" />
+        </req>
+    </item>
+    <item id="WC113" type="Weapon" name="Chaos Claw">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC113.bmp" />
+        <set name="weight" value="38" />
+        <set name="price" value="58000" />
+        <set name="durability" value="55;72" />
+        <stats>
+            <add stat="attack_damage" value="21;23;31;35" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="100;114" />
+            <add stat="critical_rate" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="65" />
+            <base stat="strength" value="88" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC114" type="Weapon" name="Wing Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC114.bmp" />
+        <set name="weight" value="34" />
+        <set name="price" value="67000" />
+        <set name="durability" value="70;100" />
+        <stats>
+            <add stat="attack_damage" value="23;26;34;38" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="108;123" />
+            <add stat="critical_rate" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="70" />
+            <base stat="strength" value="110" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC115" type="Weapon" name="Doom Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC115.bmp" />
+        <set name="weight" value="37" />
+        <set name="price" value="150000" />
+        <set name="durability" value="82;96" />
+        <stats>
+            <add stat="attack_damage" value="26;28;37;42" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="120;133" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="75" />
+            <base stat="strength" value="118" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC116" type="Weapon" name="Titan Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC116.bmp" />
+        <set name="weight" value="50" />
+        <set name="price" value="260000" />
+        <set name="durability" value="90;110" />
+        <stats>
+            <add stat="attack_damage" value="30;33;44;47" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="118;130" />
+            <add stat="critical_rate" value="15" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="125" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC117" type="Weapon" name="Salamander Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC117.bmp" />
+        <set name="weight" value="45" />
+        <set name="price" value="410000" />
+        <set name="durability" value="92;108" />
+        <stats>
+            <add stat="attack_damage" value="35;37;49;52" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="125;142" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="120" />
+            <base stat="talent" value="84" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC118" type="Weapon" name="Phoenix Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC118.bmp" />
+        <set name="weight" value="49" />
+        <set name="price" value="690000" />
+        <set name="durability" value="110;120" />
+        <stats>
+            <add stat="attack_damage" value="39;42;54;57" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="135;154" />
+            <add stat="critical_rate" value="15" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="125" />
+            <base stat="talent" value="86" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC119" type="Weapon" name="Chimera Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC119.bmp" />
+        <set name="weight" value="56" />
+        <set name="price" value="1150000" />
+        <set name="durability" value="108;130" />
+        <stats>
+            <add stat="attack_damage" value="44;47;60;63" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="147;165" />
+            <add stat="critical_rate" value="15" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="130" />
+            <base stat="spirit" value="38" />
+            <base stat="talent" value="88" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC120" type="Weapon" name="Dragon Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC120.bmp" />
+        <set name="weight" value="60" />
+        <set name="price" value="1900000" />
+        <set name="durability" value="20;140" />
+        <stats>
+            <add stat="attack_damage" value="50;53;66;70" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="158;176" />
+            <add stat="critical_rate" value="15" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="140" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC121" type="Weapon" name="Viper Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC121.bmp" />
+        <set name="weight" value="64" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="20;140" />
+        <stats>
+            <add stat="attack_damage" value="54;58;71;74" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="163;181" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="150" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC122" type="Weapon" name="Injustice Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC122.bmp" />
+        <set name="weight" value="71" />
+        <set name="price" value="2100000" />
+        <set name="durability" value="120;140" />
+        <stats>
+            <add stat="attack_damage" value="60;63;77;80" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="171;190" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="155" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC123" type="Weapon" name="Heretic Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC123.bmp" />
+        <set name="weight" value="75" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="120;140" />
+        <stats>
+            <add stat="attack_damage" value="71;74;88;91" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="179;198" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="105" />
+            <base stat="strength" value="165" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC124" type="Weapon" name="Legend Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC124.bmp" />
+        <set name="weight" value="80" />
+        <set name="price" value="2300000" />
+        <set name="durability" value="120;140" />
+        <stats>
+            <add stat="attack_damage" value="82;85;99;102" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="189;208" />
+            <add stat="critical_rate" value="18" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="172" />
+            <base stat="talent" value="95" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC125" type="Weapon" name="Garra Furiosa">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC125.bmp" />
+        <set name="weight" value="73" />
+        <set name="price" value="1850000" />
+        <set name="durability" value="166;190" />
+        <stats>
+            <add stat="attack_damage" value="80;84;101;105" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="212;232" />
+            <add stat="critical_rate" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="185" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC126" type="Weapon" name="Mythology Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC126.bmp" />
+        <set name="weight" value="86" />
+        <set name="price" value="2800000" />
+        <set name="durability" value="120;140" />
+        <stats>
+            <add stat="attack_damage" value="94;97;110;113" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="199;218" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="110" />
+            <base stat="strength" value="179" />
+            <base stat="talent" value="95" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC127" type="Weapon" name="Deadly Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC127.bmp" />
+        <set name="weight" value="92" />
+        <set name="price" value="2800000" />
+        <set name="durability" value="120;140" />
+        <stats>
+            <add stat="attack_damage" value="102;105;118;121" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="209;228" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="112" />
+            <base stat="strength" value="186" />
+            <base stat="talent" value="100" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC128" type="Weapon" name="Flame Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC128.bmp" />
+        <set name="weight" value="98" />
+        <set name="price" value="3300000" />
+        <set name="durability" value="120;140" />
+        <stats>
+            <add stat="attack_damage" value="110;113;126;129" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="219;238" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="193" />
+            <base stat="talent" value="100" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC129" type="Weapon" name="Verus Talon">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC129.bmp" />
+        <set name="weight" value="98" />
+        <set name="price" value="3300000" />
+        <set name="durability" value="120;140" />
+        <stats>
+            <add stat="attack_damage" value="114;117;130;133" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="224;243" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="193" />
+            <base stat="talent" value="100" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC130" type="Weapon" name="Garra Diab?ica">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC130.bmp" />
+        <set name="weight" value="85" />
+        <set name="price" value="2350000" />
+        <set name="durability" value="204;228" />
+        <stats>
+            <add stat="attack_damage" value="100;103;127;130" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="262;284" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="134" />
+            <base stat="strength" value="240" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC151" type="Weapon" name="Chiemera Talon(5H)">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC151.bmp" />
+        <set name="weight" value="56" />
+        <set name="price" value="2350000" />
+        <set name="durability" value="108;130" />
+        <stats>
+            <add stat="attack_damage" value="44;47;60;63" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="147;165" />
+            <add stat="critical_rate" value="15" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="130" />
+            <base stat="spirit" value="38" />
+            <base stat="talent" value="88" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC152" type="Weapon" name="Viper Talon(5H)">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC152.bmp" />
+        <set name="weight" value="64" />
+        <set name="price" value="2350000" />
+        <set name="durability" value="20;140" />
+        <stats>
+            <add stat="attack_damage" value="54;58;71;74" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="163;181" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="90" />
+            <base stat="strength" value="150" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC153" type="Weapon" name="Injustice Talon(5H)">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC153.bmp" />
+        <set name="weight" value="71" />
+        <set name="price" value="2350000" />
+        <set name="durability" value="120;140" />
+        <stats>
+            <add stat="attack_damage" value="60;63;77;80" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="171;190" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="155" />
+            <base stat="talent" value="90" />
+            <base stat="agility" value="80" />
+        </req>
+    </item>
+    <item id="WC110" type="Weapon" name="Octopus">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC110.bmp" />
+        <set name="weight" value="23" />
+        <set name="price" value="32000" />
+        <set name="durability" value="75;75" />
+        <stats>
+            <add stat="attack_damage" value="17;17;27;27" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="95;95" />
+            <add stat="critical_rate" value="10" />
+        </stats>
+        <req>
+            <base stat="level" value="50" />
+            <base stat="strength" value="96" />
+            <base stat="talent" value="63" />
+            <base stat="agility" value="63" />
+        </req>
+    </item>
+    <item id="WC105" type="Weapon" name="Arch Metal">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC105.bmp" />
+        <set name="weight" value="22" />
+        <set name="price" value="19000" />
+        <set name="durability" value="54;54" />
+        <stats>
+            <add stat="attack_damage" value="6;6;17;17" />
+            <add stat="attack_speed" value="5" />
+            <add stat="attack_rating" value="65;65" />
+            <add stat="critical_rate" value="7" />
+        </stats>
+        <req>
+            <base stat="level" value="13" />
+            <base stat="strength" value="36" />
+            <base stat="talent" value="36" />
+            <base stat="agility" value="36" />
+        </req>
+    </item>
+    <item id="WC109" type="Weapon" name="Brutal Hand">
+        <set name="weapon_type" value="Claw" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Claw\itWC109.bmp" />
+        <set name="weight" value="20" />
+        <set name="price" value="50000" />
+        <set name="durability" value="65;65" />
+        <stats>
+            <add stat="attack_damage" value="17;17;25;25" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="94;94" />
+            <add stat="critical_rate" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="44" />
+            <base stat="strength" value="90" />
+            <base stat="talent" value="55" />
+            <base stat="agility" value="55" />
+        </req>
+    </item>
+
+</list>

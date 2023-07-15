@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../schemas/items.xsd">
+    <item id="WS210" type="Weapon" name="Platinum Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS210.bmp" />
+        <set name="weight" value="13" />
+        <set name="price" value="30000" />
+        <set name="durability" value="100;100" />
+        <stats>
+            <add stat="attack_damage" value="17;17;22;22" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="100;100" />
+            <add stat="critical_rate" value="12" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="40" />
+        </req>
+    </item>
+    <item id="WS223" type="Weapon" name="Immortal sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS223.bmp" />
+        <set name="weight" value="50" />
+        <set name="price" value="1800000" />
+        <set name="durability" value="70;70" />
+        <stats>
+            <add stat="attack_damage" value="71;71;86;86" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="285;285" />
+            <add stat="critical_rate" value="24" />
+            <add stat="block_rating" value="10;10" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+        </req>
+    </item>
+    <item id="WS201" type="Weapon" name="Dagger">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS201.bmp" />
+        <set name="weight" value="2" />
+        <set name="price" value="60" />
+        <set name="durability" value="15;25" />
+        <stats>
+            <add stat="attack_damage" value="1;2;3;3" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="50;56" />
+            <add stat="critical_rate" value="1" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WS202" type="Weapon" name="Celtic Dagger">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS202.bmp" />
+        <set name="weight" value="3" />
+        <set name="price" value="250" />
+        <set name="durability" value="18;31" />
+        <stats>
+            <add stat="attack_damage" value="2;2;4;5" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="55;62" />
+            <add stat="critical_rate" value="1" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WS203" type="Weapon" name="Sword Breaker">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS203.bmp" />
+        <set name="weight" value="4" />
+        <set name="price" value="560" />
+        <set name="durability" value="30;35" />
+        <stats>
+            <add stat="attack_damage" value="2;3;6;7" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="45;52" />
+            <add stat="critical_rate" value="2" />
+        </stats>
+        <req>
+            <base stat="strength" value="30" />
+        </req>
+    </item>
+    <item id="WS204" type="Weapon" name="Short Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS204.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="1300" />
+        <set name="durability" value="40;48" />
+        <stats>
+            <add stat="attack_damage" value="3;4;5;8" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="38;44" />
+            <add stat="critical_rate" value="3" />
+        </stats>
+        <req>
+            <base stat="level" value="6" />
+            <base stat="strength" value="36" />
+        </req>
+    </item>
+    <item id="WS205" type="Weapon" name="Long Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS205.bmp" />
+        <set name="weight" value="6" />
+        <set name="price" value="2600" />
+        <set name="durability" value="48;55" />
+        <stats>
+            <add stat="attack_damage" value="7;8;11;13" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="40;45" />
+            <add stat="critical_rate" value="7;" />
+            <add stat="block_rating" value="4;4" />
+        </stats>
+        <req>
+            <base stat="level" value="9" />
+            <base stat="strength" value="40" />
+            <base stat="talent" value="30" />
+        </req>
+    </item>
+    <item id="WS206" type="Weapon" name="Broad Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS206.bmp" />
+        <set name="weight" value="9" />
+        <set name="price" value="3500" />
+        <set name="durability" value="52;63" />
+        <stats>
+            <add stat="attack_damage" value="5;8;10;12" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="45;53" />
+            <add stat="critical_rate" value="5;" />
+        </stats>
+        <req>
+            <base stat="level" value="13" />
+            <base stat="strength" value="50" />
+            <base stat="talent" value="36" />
+        </req>
+    </item>
+    <item id="WS207" type="Weapon" name="Blade">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS207.bmp" />
+        <set name="weight" value="8" />
+        <set name="price" value="5400" />
+        <set name="durability" value="48;70" />
+        <stats>
+            <add stat="attack_damage" value="6;9;11;14" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="45;52" />
+            <add stat="critical_rate" value="5;" />
+        </stats>
+        <req>
+            <base stat="level" value="17" />
+            <base stat="strength" value="62" />
+            <base stat="agility" value="40" />
+        </req>
+    </item>
+    <item id="WS208" type="Weapon" name="Templar Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS208.bmp" />
+        <set name="weight" value="8" />
+        <set name="price" value="9300" />
+        <set name="durability" value="45;65" />
+        <stats>
+            <add stat="attack_damage" value="7;9;13;15" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="42;46" />
+            <add stat="critical_rate" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="24" />
+            <base stat="strength" value="40" />
+            <base stat="spirit" value="30" />
+            <base stat="talent" value="40" />
+        </req>
+    </item>
+    <item id="WS209" type="Weapon" name="Shield Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS209.bmp" />
+        <set name="weight" value="9" />
+        <set name="price" value="13000" />
+        <set name="durability" value="50;75" />
+        <stats>
+            <add stat="attack_damage" value="8;12;16;18" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="45;56" />
+            <add stat="critical_rate" value="7" />
+        </stats>
+        <req>
+            <base stat="level" value="30" />
+            <base stat="strength" value="66" />
+            <base stat="talent" value="52" />
+            <base stat="agility" value="40" />
+        </req>
+    </item>
+    <item id="WS210" type="Weapon" name="Plated Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS210.bmp" />
+        <set name="weight" value="13" />
+        <set name="price" value="16000" />
+        <set name="durability" value="60;80" />
+        <stats>
+            <add stat="attack_damage" value="13;16;21;25" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="50;62" />
+            <add stat="critical_rate" value="12" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="37" />
+            <base stat="strength" value="76" />
+            <base stat="talent" value="82" />
+        </req>
+    </item>
+    <item id="WS211" type="Weapon" name="Claymore">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS211.bmp" />
+        <set name="weight" value="12" />
+        <set name="price" value="21000" />
+        <set name="durability" value="66;84" />
+        <stats>
+            <add stat="attack_damage" value="11;14;21;23" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="60;70" />
+            <add stat="critical_rate" value="7" />
+        </stats>
+        <req>
+            <base stat="level" value="43" />
+            <base stat="strength" value="80" />
+            <base stat="talent" value="75" />
+            <base stat="agility" value="50" />
+        </req>
+    </item>
+    <item id="WS212" type="Weapon" name="Slayer">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS212.bmp" />
+        <set name="weight" value="13" />
+        <set name="price" value="27000" />
+        <set name="durability" value="73;92" />
+        <stats>
+            <add stat="attack_damage" value="13;16;24;27" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="70;84" />
+            <add stat="critical_rate" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="48" />
+            <base stat="strength" value="90" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="56" />
+        </req>
+    </item>
+    <item id="WS213" type="Weapon" name="Gigantic Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS213.bmp" />
+        <set name="weight" value="20" />
+        <set name="price" value="34000" />
+        <set name="durability" value="85;100" />
+        <stats>
+            <add stat="attack_damage" value="19;22;32;35" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="80;100" />
+            <add stat="critical_rate" value="14" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="53" />
+            <base stat="strength" value="115" />
+            <base stat="talent" value="80" />
+        </req>
+    </item>
+    <item id="WS214" type="Weapon" name="HighLander">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS214.bmp" />
+        <set name="weight" value="26" />
+        <set name="price" value="41000" />
+        <set name="durability" value="80;105" />
+        <stats>
+            <add stat="attack_damage" value="16;20;28;31" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="85;98" />
+            <add stat="critical_rate" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="57" />
+            <base stat="strength" value="110" />
+            <base stat="talent" value="86" />
+        </req>
+    </item>
+    <item id="WS215" type="Weapon" name="Bastard Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS215.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="48000" />
+        <set name="durability" value="75;115" />
+        <stats>
+            <add stat="attack_damage" value="23;26;36;40" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="100;114" />
+            <add stat="critical_rate" value="16" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="61" />
+            <base stat="strength" value="124" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS216" type="Weapon" name="Fatal Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS216.bmp" />
+        <set name="weight" value="36" />
+        <set name="price" value="57000" />
+        <set name="durability" value="80;120" />
+        <stats>
+            <add stat="attack_damage" value="25;29;39;44" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="110;130" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="65" />
+            <base stat="strength" value="130" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS217" type="Weapon" name="Ancient Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS217.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="66000" />
+        <set name="durability" value="65;120" />
+        <stats>
+            <add stat="attack_damage" value="22;26;35;38" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="100;120" />
+            <add stat="critical_rate" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="70" />
+            <base stat="strength" value="100" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS218" type="Weapon" name="Twin Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS218.bmp" />
+        <set name="weight" value="33" />
+        <set name="price" value="150000" />
+        <set name="durability" value="85;130" />
+        <stats>
+            <add stat="attack_damage" value="32;35;48;51" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="118;142" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="75" />
+            <base stat="strength" value="126" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS219" type="Weapon" name="Salamander Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS219.bmp" />
+        <set name="weight" value="38" />
+        <set name="price" value="260000" />
+        <set name="durability" value="95;136" />
+        <stats>
+            <add stat="attack_damage" value="38;40;53;56" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="126;150" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="10;10" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="134" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS220" type="Weapon" name="Avenger Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS220.bmp" />
+        <set name="weight" value="36" />
+        <set name="price" value="430000" />
+        <set name="durability" value="90;125" />
+        <stats>
+            <add stat="attack_damage" value="34;36;47;50" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="130;156" />
+            <add stat="critical_rate" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="130" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS221" type="Weapon" name="Titan Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS221.bmp" />
+        <set name="weight" value="48" />
+        <set name="price" value="690000" />
+        <set name="durability" value="110;140" />
+        <stats>
+            <add stat="attack_damage" value="47;50;63;66" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="136;164" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="10;10" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="144" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS222" type="Weapon" name="Wyvern Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS222.bmp" />
+        <set name="weight" value="52" />
+        <set name="price" value="1200000" />
+        <set name="durability" value="110;136" />
+        <stats>
+            <add stat="attack_damage" value="36;39;51;55" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="144;170" />
+            <add stat="critical_rate" value="12" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="152" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS223" type="Weapon" name="Immortal Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS223.bmp" />
+        <set name="weight" value="57" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="49;52;67;70" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="152;177" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="11;11" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="160" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS224" type="Weapon" name="Justice Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS224.bmp" />
+        <set name="weight" value="63" />
+        <set name="price" value="2100000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="52;54;71;74" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="160;164" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="168" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS225" type="Weapon" name="Extreme Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS225.bmp" />
+        <set name="weight" value="68" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="58;61;81;85" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="168;192" />
+            <add stat="critical_rate" value="21" />
+            <add stat="block_rating" value="14;14" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="182" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS226" type="Weapon" name="Mirage Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS226.bmp" />
+        <set name="weight" value="72" />
+        <set name="price" value="2300000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="70;73;94;98" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="175;199" />
+            <add stat="critical_rate" value="22" />
+            <add stat="block_rating" value="15;15" />
+        </stats>
+        <req>
+            <base stat="level" value="105" />
+            <base stat="strength" value="196" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS227" type="Weapon" name="Tirbing Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS227.bmp" />
+        <set name="weight" value="77" />
+        <set name="price" value="2400000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="82;85;104;108" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="187;211" />
+            <add stat="critical_rate" value="22" />
+            <add stat="block_rating" value="15;15" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="203" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WS228" type="Weapon" name="Legend Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS228.bmp" />
+        <set name="weight" value="60" />
+        <set name="price" value="2400000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="72;75;95;99" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="187;211" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="196" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WS229" type="Weapon" name="Espada Mirage">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS229.bmp" />
+        <set name="weight" value="75" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="177;188" />
+        <stats>
+            <add stat="attack_damage" value="93;96;109;114" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="240;270" />
+            <add stat="critical_rate" value="22" />
+            <add stat="block_rating" value="15;15" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="240" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS230" type="Weapon" name="Mythology Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS230.bmp" />
+        <set name="weight" value="83" />
+        <set name="price" value="2900000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="94;97;114;118" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="199;223" />
+            <add stat="critical_rate" value="23" />
+            <add stat="block_rating" value="16;16" />
+        </stats>
+        <req>
+            <base stat="level" value="110" />
+            <base stat="strength" value="210" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WS231" type="Weapon" name="Deadly Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS231.bmp" />
+        <set name="weight" value="89" />
+        <set name="price" value="3200000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="104;107;125;128" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="211;235" />
+            <add stat="critical_rate" value="23" />
+            <add stat="block_rating" value="16;16" />
+        </stats>
+        <req>
+            <base stat="level" value="112" />
+            <base stat="strength" value="217" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WS232" type="Weapon" name="Flame Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS232.bmp" />
+        <set name="weight" value="95" />
+        <set name="price" value="3400000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="114;117;135;138" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="223;247" />
+            <add stat="critical_rate" value="23" />
+            <add stat="block_rating" value="16;16" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="224" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WS233" type="Weapon" name="Verus Sword">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS233.bmp" />
+        <set name="weight" value="95" />
+        <set name="price" value="3400000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="119;122;140;143" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="229;253" />
+            <add stat="critical_rate" value="23" />
+            <add stat="block_rating" value="16;16" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="224" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WS234" type="Weapon" name="Espada Deadly">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS234.bmp" />
+        <set name="weight" value="90" />
+        <set name="price" value="2400000" />
+        <set name="durability" value="220;230" />
+        <stats>
+            <add stat="attack_damage" value="120;123;128;134" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="300;330" />
+            <add stat="critical_rate" value="23" />
+            <add stat="block_rating" value="15;15" />
+        </stats>
+        <req>
+            <base stat="level" value="134" />
+            <base stat="strength" value="310" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS235" type="Weapon" name="Espada Draxos">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS235.bmp" />
+        <set name="weight" value="90" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="230;230" />
+        <stats>
+            <add stat="attack_damage" value="125;125;135;135" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="340" />
+            <add stat="critical_rate" value="23" />
+            <add stat="block_rating" value="15;15" />
+        </stats>
+        <req>
+            <base stat="level" value="135" />
+            <base stat="strength" value="310" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS252" type="Weapon" name="Wyvern Sword(5H)">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS252.bmp" />
+        <set name="weight" value="52" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="110;136" />
+        <stats>
+            <add stat="attack_damage" value="36;39;51;55" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="144;170" />
+            <add stat="critical_rate" value="12" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="152" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS253" type="Weapon" name="Justice Sword(5H)">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS253.bmp" />
+        <set name="weight" value="63" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="52;54;71;74" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="160;164" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="90" />
+            <base stat="strength" value="168" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS254" type="Weapon" name="Extreme Sword(5H)">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS254.bmp" />
+        <set name="weight" value="68" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="58;61;81;85" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="168;192" />
+            <add stat="critical_rate" value="21" />
+            <add stat="block_rating" value="14;14" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="182" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WS211" type="Weapon" name="Majesty">
+        <set name="weapon_type" value="Sword" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Sword\itWS211.bmp" />
+        <set name="weight" value="12" />
+        <set name="price" value="50000" />
+        <set name="durability" value="84;84" />
+        <stats>
+            <add stat="attack_damage" value="18;18;23;23" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="60;60" />
+            <add stat="critical_rate" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="43" />
+            <base stat="strength" value="95" />
+            <base stat="talent" value="75" />
+            <base stat="agility" value="50" />
+        </req>
+    </item>
+
+
+</list>

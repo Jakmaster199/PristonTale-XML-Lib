@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../schemas/items.xsd">
+    <item id="WV109" type="Weapon" name="Evil Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV109.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="30000" />
+        <set name="durability" value="100;100" />
+        <stats>
+            <add stat="attack_damage" value="19;19;25;25" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="120;120" />
+            <add stat="critical_rate" value="11" />
+            <add stat="block_rating" value="6;6" />
+        </stats>
+        <req>
+            <base stat="level" value="40" />
+        </req>
+    </item>
+    <item id="WV121" type="Weapon" name="Arina Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV121.bmp" />
+        <set name="weight" value="50" />
+        <set name="price" value="1800000" />
+        <set name="durability" value="70;70" />
+        <stats>
+            <add stat="attack_damage" value="70;70;85;85" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="285;285" />
+            <add stat="critical_rate" value="24" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+        </req>
+    </item>
+    <item id="WV101" type="Weapon" name="Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV101.bmp" />
+        <set name="weight" value="3" />
+        <set name="price" value="120" />
+        <set name="durability" value="15;25" />
+        <stats>
+            <add stat="attack_damage" value="1;2;3;5" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="35;43" />
+            <add stat="critical_rate" value="2" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WV102" type="Weapon" name="Fist Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV102.bmp" />
+        <set name="weight" value="6" />
+        <set name="price" value="530" />
+        <set name="durability" value="18;31" />
+        <stats>
+            <add stat="attack_damage" value="2;3;5;7" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="39;46" />
+            <add stat="critical_rate" value="3" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WV103" type="Weapon" name="Enas Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV103.bmp" />
+        <set name="weight" value="9" />
+        <set name="price" value="1200" />
+        <set name="durability" value="30;35" />
+        <stats>
+            <add stat="attack_damage" value="4;5;7;9" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="42;49" />
+            <add stat="critical_rate" value="4" />
+        </stats>
+        <req>
+            <base stat="level" value="6" />
+            <base stat="strength" value="35" />
+        </req>
+    </item>
+    <item id="WV104" type="Weapon" name="Megas Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV104.bmp" />
+        <set name="weight" value="13" />
+        <set name="price" value="2500" />
+        <set name="durability" value="40;48" />
+        <stats>
+            <add stat="attack_damage" value="6;8;11;13" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="45;52" />
+            <add stat="critical_rate" value="6" />
+            <add stat="block_rating" value="4" />
+        </stats>
+        <req>
+            <base stat="level" value="10" />
+            <base stat="strength" value="40" />
+        </req>
+    </item>
+    <item id="WV105" type="Weapon" name="Neos Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV105.bmp" />
+        <set name="weight" value="18" />
+        <set name="price" value="4200" />
+        <set name="durability" value="48;55" />
+        <stats>
+            <add stat="attack_damage" value="7;9;14;16" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="47;58" />
+            <add stat="critical_rate" value="7;" />
+        </stats>
+        <req>
+            <base stat="level" value="13" />
+            <base stat="strength" value="48" />
+            <base stat="talent" value="32" />
+        </req>
+    </item>
+    <item id="WV106" type="Weapon" name="Termos Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV106.bmp" />
+        <set name="weight" value="20" />
+        <set name="price" value="8200" />
+        <set name="durability" value="52;63" />
+        <stats>
+            <add stat="attack_damage" value="8;10;16;18" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="50;60" />
+            <add stat="critical_rate" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="16" />
+            <base stat="strength" value="58" />
+            <base stat="spirit" value="26" />
+            <base stat="talent" value="38" />
+        </req>
+    </item>
+    <item id="WV107" type="Weapon" name="Ptera Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV107.bmp" />
+        <set name="weight" value="23" />
+        <set name="price" value="12000" />
+        <set name="durability" value="48;70" />
+        <stats>
+            <add stat="attack_damage" value="9;11;18;21" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="54;62" />
+            <add stat="critical_rate" value="8;" />
+        </stats>
+        <req>
+            <base stat="level" value="22" />
+            <base stat="strength" value="67" />
+            <base stat="talent" value="44" />
+        </req>
+    </item>
+    <item id="WV108" type="Weapon" name="Skotadi Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV108.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="16000" />
+        <set name="durability" value="45;65" />
+        <stats>
+            <add stat="attack_damage" value="10;12;21;24" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="57;64" />
+            <add stat="critical_rate" value="10" />
+            <add stat="block_rating" value="6" />
+        </stats>
+        <req>
+            <base stat="level" value="30" />
+            <base stat="strength" value="76" />
+            <base stat="talent" value="50" />
+        </req>
+    </item>
+    <item id="WV109" type="Weapon" name="Kako Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV109.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="20000" />
+        <set name="durability" value="50;75" />
+        <stats>
+            <add stat="attack_damage" value="11;14;24;27" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="61;68" />
+            <add stat="critical_rate" value="12" />
+        </stats>
+        <req>
+            <base stat="level" value="37" />
+            <base stat="strength" value="85" />
+            <base stat="talent" value="55" />
+        </req>
+    </item>
+    <item id="WV110" type="Weapon" name="Armonia Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV110.bmp" />
+        <set name="weight" value="32" />
+        <set name="price" value="28000" />
+        <set name="durability" value="60;80" />
+        <stats>
+            <add stat="attack_damage" value="14;17;27;31" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="65;76" />
+            <add stat="critical_rate" value="13" />
+            <add stat="block_rating" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="43" />
+            <base stat="strength" value="94" />
+            <base stat="talent" value="60" />
+        </req>
+    </item>
+    <item id="WV111" type="Weapon" name="Mechane Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV111.bmp" />
+        <set name="weight" value="34" />
+        <set name="price" value="37000" />
+        <set name="durability" value="66;84" />
+        <stats>
+            <add stat="attack_damage" value="16;20;31;35" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="70;83" />
+            <add stat="critical_rate" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="50" />
+            <base stat="strength" value="104" />
+            <base stat="talent" value="70" />
+        </req>
+    </item>
+    <item id="WV112" type="Weapon" name="Pedon Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV112.bmp" />
+        <set name="weight" value="36" />
+        <set name="price" value="47000" />
+        <set name="durability" value="73;92" />
+        <stats>
+            <add stat="attack_damage" value="19;23;35;40" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="80;96" />
+            <add stat="critical_rate" value="15" />
+            <add stat="block_rating" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="55" />
+            <base stat="strength" value="113" />
+            <base stat="spirit" value="32" />
+            <base stat="talent" value="80" />
+            <base stat="agility" value="50" />
+        </req>
+    </item>
+    <item id="WV113" type="Weapon" name="Potia Vmabrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV113.bmp" />
+        <set name="weight" value="38" />
+        <set name="price" value="58000" />
+        <set name="durability" value="85;100" />
+        <stats>
+            <add stat="attack_damage" value="22;27;40;45" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="93;111" />
+            <add stat="critical_rate" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="60" />
+            <base stat="strength" value="126" />
+            <base stat="talent" value="85" />
+        </req>
+    </item>
+    <item id="WV114" type="Weapon" name="Steno Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV114.bmp" />
+        <set name="weight" value="40" />
+        <set name="price" value="66000" />
+        <set name="durability" value="80;105" />
+        <stats>
+            <add stat="attack_damage" value="25;31;45;49" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="105;124" />
+            <add stat="critical_rate" value="16" />
+            <add stat="block_rating" value="8" />
+        </stats>
+        <req>
+            <base stat="level" value="65" />
+            <base stat="strength" value="136" />
+            <base stat="talent" value="85" />
+        </req>
+    </item>
+    <item id="WV115" type="Weapon" name="Osto Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV115.bmp" />
+        <set name="weight" value="42" />
+        <set name="price" value="74000" />
+        <set name="durability" value="75;115" />
+        <stats>
+            <add stat="attack_damage" value="29;35;50;54" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="117;138" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="70" />
+            <base stat="strength" value="145" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV116" type="Weapon" name="Tromos Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV116.bmp" />
+        <set name="weight" value="44" />
+        <set name="price" value="160000" />
+        <set name="durability" value="80;120" />
+        <stats>
+            <add stat="attack_damage" value="33;37;55;59" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="128;150" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="9" />
+        </stats>
+        <req>
+            <base stat="level" value="75" />
+            <base stat="strength" value="153" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV117" type="Weapon" name="Magikos Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV117.bmp" />
+        <set name="weight" value="47" />
+        <set name="price" value="270000" />
+        <set name="durability" value="65;120" />
+        <stats>
+            <add stat="attack_damage" value="37;42;60;64" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="139;162" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="10" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="158" />
+            <base stat="spirit" value="38" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV118" type="Weapon" name="Phobos Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV118.bmp" />
+        <set name="weight" value="51" />
+        <set name="price" value="420000" />
+        <set name="durability" value="85;130" />
+        <stats>
+            <add stat="attack_damage" value="42;47;65;69" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="150;174" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="10" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="163" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV119" type="Weapon" name="Opis Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV119.bmp" />
+        <set name="weight" value="55" />
+        <set name="price" value="720000" />
+        <set name="durability" value="95;136" />
+        <stats>
+            <add stat="attack_damage" value="47;53;70;74" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="159;184" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="170" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV120" type="Weapon" name="Panthera Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV120.bmp" />
+        <set name="weight" value="59" />
+        <set name="price" value="1200000" />
+        <set name="durability" value="90;125" />
+        <stats>
+            <add stat="attack_damage" value="53;59;75;79" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="169;191" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="176" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV122" type="Weapon" name="Deimos Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV122.bmp" />
+        <set name="weight" value="70" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="110;136" />
+        <stats>
+            <add stat="attack_damage" value="68;73;85;90" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="178;199" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="182" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV123" type="Weapon" name="Ares Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV123.bmp" />
+        <set name="weight" value="75" />
+        <set name="price" value="2300000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="73;82;90;96" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="184;209" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="187" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV124" type="Weapon" name="Poseidon Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV124.bmp" />
+        <set name="weight" value="80" />
+        <set name="price" value="2400000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="82;88;96;102" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="191;216" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="105" />
+            <base stat="strength" value="192" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV125" type="Weapon" name="Patos Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV125.bmp" />
+        <set name="weight" value="85" />
+        <set name="price" value="2500000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="90;97;102;108" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="197;224" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="198" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WV126" type="Weapon" name="Mythology Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV126.bmp" />
+        <set name="weight" value="91" />
+        <set name="price" value="3000000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="100;106;110;114" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="206;232" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="14" />
+        </stats>
+        <req>
+            <base stat="level" value="110" />
+            <base stat="strength" value="205" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WV127" type="Weapon" name="Deadlt Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV127.bmp" />
+        <set name="weight" value="97" />
+        <set name="price" value="3300000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="110;113;120;124" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="215;242" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="15" />
+        </stats>
+        <req>
+            <base stat="level" value="112" />
+            <base stat="strength" value="212" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WV128" type="Weapon" name="Flame Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV128.bmp" />
+        <set name="weight" value="103" />
+        <set name="price" value="3500000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="120;123;130;134" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="225;252" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="16" />
+        </stats>
+        <req>
+            <base stat="level" value="114" />
+            <base stat="strength" value="219" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WV129" type="Weapon" name="Verus Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV129.bmp" />
+        <set name="weight" value="103" />
+        <set name="price" value="3500000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="125;128;135;138" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="231;257" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="114" />
+            <base stat="strength" value="219" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WV130" type="Weapon" name="Abyss Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV130.bmp" />
+        <set name="weight" value="109" />
+        <set name="price" value="4000000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="131;134;141;144" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="236;262" />
+            <add stat="critical_rate" value="21" />
+            <add stat="block_rating" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="117" />
+            <base stat="strength" value="226" />
+            <base stat="talent" value="105" />
+        </req>
+    </item>
+    <item id="WV151" type="Weapon" name="Panthera Vambrace(5h)">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV151.bmp" />
+        <set name="weight" value="59" />
+        <set name="price" value="0" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="53;59;75;79" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="169;191" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="176" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV152" type="Weapon" name="Deimos Vambrace(5h)">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV152.bmp" />
+        <set name="weight" value="70" />
+        <set name="price" value="0" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="68;73;85;90" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="178;199" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="90" />
+            <base stat="strength" value="182" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV153" type="Weapon" name="Ares Vambrace(5h)">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV153.bmp" />
+        <set name="weight" value="75" />
+        <set name="price" value="0" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="73;82;90;96" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="184;209" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="187" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV154" type="Weapon" name="Dark Vambrace(80Lv)">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV154.bmp" />
+        <set name="weight" value="59" />
+        <set name="price" value="100000" />
+        <set name="durability" value="90;125" />
+        <stats>
+            <add stat="attack_damage" value="53;59;75;79" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="169;191" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="11" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="176" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV155" type="Weapon" name="Dark Vambrace(102Lv)">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV155.bmp" />
+        <set name="weight" value="75" />
+        <set name="price" value="100000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="73;82;90;96" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="184;209" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="13" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="187" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WV156" type="Weapon" name="Dare Vambrace(108Lv)">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV156.bmp" />
+        <set name="weight" value="85" />
+        <set name="price" value="100000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="90;97;102;108" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="197;224" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="198" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WV157" type="Weapon" name="Dark Vambrace">
+        <set name="weapon_type" value="Vambrace" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Vambrace\itWV157.bmp" />
+        <set name="weight" value="90" />
+        <set name="price" value="2500000" />
+        <set name="durability" value="126;155" />
+        <stats>
+            <add stat="attack_damage" value="100;107;110;114" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="204;230" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="17" />
+        </stats>
+        <req>
+            <base stat="level" value="130" />
+            <base stat="strength" value="204" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+
+
+</list>

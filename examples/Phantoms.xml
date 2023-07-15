@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../schemas/items.xsd">
+
+    <item id="WN109" type="Weapon" name="Tatanka">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN109.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="30000" />
+        <set name="durability" value="100;100" />
+        <stats>
+            <add stat="attack_damage" value="15;15;23;23" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="100;100" />
+            <add stat="attack_range" value="175" />
+            <add stat="critical_rate" value="7" />
+            <add stat="block_rating" value="5;5" />
+        </stats>
+        <req>
+            <base stat="level" value="40" />
+        </req>
+    </item>
+    <item id="WN121" type="Weapon" name="KahsehthaPhantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN121.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="1800000" />
+        <set name="durability" value="70;70" />
+        <stats>
+            <add stat="attack_damage" value="53;53;60;60" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="180;180" />
+            <add stat="attack_range" value="200" />
+            <add stat="block_rating" value="13;13" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+        </req>
+    </item>
+    <item id="WN101" type="Weapon" name="Shield Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN101.bmp" />
+        <set name="weight" value="2" />
+        <set name="price" value="100" />
+        <set name="durability" value="18;34" />
+        <stats>
+            <add stat="attack_damage" value="1;2;3;4" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="20;25" />
+            <add stat="attack_range" value="140;" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WN102" type="Weapon" name="Creak Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN102.bmp" />
+        <set name="weight" value="3" />
+        <set name="price" value="500" />
+        <set name="durability" value="30;48" />
+        <stats>
+            <add stat="attack_damage" value="2;3;4;5" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="26;31" />
+            <add stat="attack_range" value="145;" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WN103" type="Weapon" name="Pin Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN103.bmp" />
+        <set name="weight" value="4" />
+        <set name="price" value="800" />
+        <set name="durability" value="27;44" />
+        <stats>
+            <add stat="attack_damage" value="3;4;6;7" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="30;36" />
+            <add stat="attack_range" value="150" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="spirit" value="40" />
+        </req>
+    </item>
+    <item id="WN104" type="Weapon" name="Terte Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN104.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="1500" />
+        <set name="durability" value="38;55" />
+        <stats>
+            <add stat="attack_damage" value="4;5;8;9" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="32;38" />
+            <add stat="attack_range" value="155" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="3;3" />
+        </stats>
+        <req>
+            <base stat="level" value="7" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="27" />
+        </req>
+    </item>
+    <item id="WN105" type="Weapon" name="Okute Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN105.bmp" />
+        <set name="weight" value="6" />
+        <set name="price" value="3700" />
+        <set name="durability" value="40;50" />
+        <stats>
+            <add stat="attack_damage" value="5;7;10;12" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="30;40" />
+            <add stat="attack_range" value="160;" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="3;3" />
+        </stats>
+        <req>
+            <base stat="level" value="12" />
+            <base stat="spirit" value="53" />
+            <base stat="talent" value="30" />
+        </req>
+    </item>
+    <item id="WN106" type="Weapon" name="Wankala Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN106.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="7000" />
+        <set name="durability" value="32;44" />
+        <stats>
+            <add stat="attack_damage" value="6;8;11;13" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="34;44" />
+            <add stat="attack_range" value="160;" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="4;4" />
+        </stats>
+        <req>
+            <base stat="level" value="17" />
+            <base stat="spirit" value="57" />
+            <base stat="talent" value="32" />
+        </req>
+    </item>
+    <item id="WN107" type="Weapon" name="Paha Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN107.bmp" />
+        <set name="weight" value="8" />
+        <set name="price" value="12000" />
+        <set name="durability" value="38;50" />
+        <stats>
+            <add stat="attack_damage" value="7;9;12;14" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="38;50" />
+            <add stat="attack_range" value="160;" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="4;4" />
+        </stats>
+        <req>
+            <base stat="level" value="23" />
+            <base stat="spirit" value="60" />
+            <base stat="talent" value="34" />
+        </req>
+    </item>
+    <item id="WN108" type="Weapon" name="Piskin Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN108.bmp" />
+        <set name="weight" value="9" />
+        <set name="price" value="19000" />
+        <set name="durability" value="44;58" />
+        <stats>
+            <add stat="attack_damage" value="8;10;12;15" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="43;54" />
+            <add stat="attack_range" value="165;" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="5;5" />
+        </stats>
+        <req>
+            <base stat="level" value="30" />
+            <base stat="strength" value="35" />
+            <base stat="spirit" value="65" />
+            <base stat="talent" value="36" />
+        </req>
+    </item>
+    <item id="WN109" type="Weapon" name="Tatanka Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN109.bmp" />
+        <set name="weight" value="10" />
+        <set name="price" value="27000" />
+        <set name="durability" value="52;66" />
+        <stats>
+            <add stat="attack_damage" value="10;12;15;17" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="52;66" />
+            <add stat="attack_range" value="165" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="5;5" />
+        </stats>
+        <req>
+            <base stat="level" value="37" />
+            <base stat="strength" value="40" />
+            <base stat="spirit" value="70" />
+            <base stat="talent" value="42" />
+        </req>
+    </item>
+    <item id="WN110" type="Weapon" name="Sosho Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN110.bmp" />
+        <set name="weight" value="11" />
+        <set name="price" value="39000" />
+        <set name="durability" value="58;74" />
+        <stats>
+            <add stat="attack_damage" value="12;14;17;19" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="58;74" />
+            <add stat="attack_range" value="170;" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="6;6" />
+        </stats>
+        <req>
+            <base stat="level" value="44" />
+            <base stat="strength" value="44" />
+            <base stat="spirit" value="75" />
+            <base stat="talent" value="47" />
+        </req>
+    </item>
+    <item id="WN111" type="Weapon" name="Yumni Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN111.bmp" />
+        <set name="weight" value="12" />
+        <set name="price" value="46000" />
+        <set name="durability" value="54;72" />
+        <stats>
+            <add stat="attack_damage" value="13;15;18;20" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="65;80" />
+            <add stat="attack_range" value="170" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="6;6" />
+        </stats>
+        <req>
+            <base stat="level" value="50" />
+            <base stat="spirit" value="90" />
+            <base stat="talent" value="60" />
+        </req>
+    </item>
+    <item id="WN112" type="Weapon" name="Siha Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN112.bmp" />
+        <set name="weight" value="13" />
+        <set name="price" value="54000" />
+        <set name="durability" value="64;82" />
+        <stats>
+            <add stat="attack_damage" value="15;17;20;23" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="72;90" />
+            <add stat="attack_range" value="170" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="55" />
+            <base stat="spirit" value="100" />
+            <base stat="talent" value="70" />
+        </req>
+    </item>
+    <item id="WN113" type="Weapon" name="Wi Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN113.bmp" />
+        <set name="weight" value="15" />
+        <set name="price" value="63000" />
+        <set name="durability" value="64;82" />
+        <stats>
+            <add stat="attack_damage" value="16;18;22;25" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="75;94" />
+            <add stat="attack_range" value="175" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="7;7;" />
+        </stats>
+        <req>
+            <base stat="level" value="60" />
+            <base stat="spirit" value="115" />
+            <base stat="talent" value="80" />
+        </req>
+    </item>
+    <item id="WN114" type="Weapon" name="Roan Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN114.bmp" />
+        <set name="weight" value="16" />
+        <set name="price" value="72000" />
+        <set name="durability" value="55;70" />
+        <stats>
+            <add stat="attack_damage" value="16;19;24;27" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="78;98" />
+            <add stat="attack_range" value="175" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="65" />
+            <base stat="strength" value="50" />
+            <base stat="spirit" value="125" />
+            <base stat="talent" value="80" />
+        </req>
+    </item>
+    <item id="WN115" type="Weapon" name="CankuPhantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN115.bmp" />
+        <set name="weight" value="18" />
+        <set name="price" value="80000" />
+        <set name="durability" value="72;92" />
+        <stats>
+            <add stat="attack_damage" value="18;21;26;29" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="90;115" />
+            <add stat="attack_range" value="180" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="70" />
+            <base stat="strength" value="50" />
+            <base stat="spirit" value="132" />
+            <base stat="talent" value="83" />
+        </req>
+    </item>
+    <item id="WN116" type="Weapon" name="Owa Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN116.bmp" />
+        <set name="weight" value="20" />
+        <set name="price" value="160000" />
+        <set name="durability" value="80;100" />
+        <stats>
+            <add stat="attack_damage" value="22;24;28;30" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="110;130" />
+            <add stat="attack_range" value="185" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="75" />
+            <base stat="strength" value="50" />
+            <base stat="spirit" value="140" />
+            <base stat="talent" value="86" />
+        </req>
+    </item>
+    <item id="WN117" type="Weapon" name="Nkeez Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN117.bmp" />
+        <set name="weight" value="24" />
+        <set name="price" value="260000" />
+        <set name="durability" value="90;108" />
+        <stats>
+            <add stat="attack_damage" value="25;28;31;34" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="120;140" />
+            <add stat="attack_range" value="185" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="55" />
+            <base stat="spirit" value="146" />
+            <base stat="talent" value="88" />
+        </req>
+    </item>
+    <item id="WN118" type="Weapon" name="Pejula Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN118.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="420000" />
+        <set name="durability" value="98;116" />
+        <stats>
+            <add stat="attack_damage" value="28;30;35;38" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="130;148" />
+            <add stat="attack_range" value="190" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="60" />
+            <base stat="spirit" value="154" />
+            <base stat="talent" value="88" />
+        </req>
+    </item>
+    <item id="WN119" type="Weapon" name="Luta Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN119.bmp" />
+        <set name="weight" value="32" />
+        <set name="price" value="700000" />
+        <set name="durability" value="110;125" />
+        <stats>
+            <add stat="attack_damage" value="32;35;40;44" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="137;155" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="65" />
+            <base stat="spirit" value="162" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WN120" type="Weapon" name="Natanh Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN120.bmp" />
+        <set name="weight" value="35" />
+        <set name="price" value="1200000" />
+        <set name="durability" value="122;134" />
+        <stats>
+            <add stat="attack_damage" value="36;40;43;48" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="146;164" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="170" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WN121" type="Weapon" name="Zebul Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN121.bmp" />
+        <set name="weight" value="38" />
+        <set name="price" value="1900000" />
+        <set name="durability" value="128;140" />
+        <stats>
+            <add stat="attack_damage" value="40;43;48;50" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="155;173" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="180" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WN122" type="Weapon" name="Niyaha Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN122.bmp" />
+        <set name="weight" value="42" />
+        <set name="price" value="2100000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="44;48;52;54" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="164;179" />
+            <add stat="attack_range" value="200" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="185" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WN123" type="Weapon" name="Acala Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN123.bmp" />
+        <set name="weight" value="46" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="48;51;56;58" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="173;183" />
+            <add stat="attack_range" value="205" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="195" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WN124" type="Weapon" name="Wakinyan Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN124.bmp" />
+        <set name="weight" value="56" />
+        <set name="price" value="2300000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="60;63;77;79" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="183;193" />
+            <add stat="attack_range" value="210" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="105" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="205" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WN125" type="Weapon" name="Wakan Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN125.bmp" />
+        <set name="weight" value="62" />
+        <set name="price" value="2400000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="74;77;92;94" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="193;203" />
+            <add stat="attack_range" value="215" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="10;10" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="212" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WN126" type="Weapon" name="Mythology Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN126.bmp" />
+        <set name="weight" value="68" />
+        <set name="price" value="2900000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="88;91;107;109" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="203;213" />
+            <add stat="attack_range" value="220" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="11;11" />
+        </stats>
+        <req>
+            <base stat="level" value="110" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="219" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WN127" type="Weapon" name="Deadly Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN127.bmp" />
+        <set name="weight" value="74" />
+        <set name="price" value="3200000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="100;103;119;122" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="213;223" />
+            <add stat="attack_range" value="225" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="112" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="226" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WN128" type="Weapon" name="Flame Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN128.bmp" />
+        <set name="weight" value="80" />
+        <set name="price" value="3400000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="112;115;131;134" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="223;233" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="233" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WN129" type="Weapon" name="Verus Phantom">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN129.bmp" />
+        <set name="weight" value="80" />
+        <set name="price" value="3400000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="118;121;137;140" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="228;238" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="233" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WN151" type="Weapon" name="Natanh Phantom(5H)">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN151.bmp" />
+        <set name="weight" value="35" />
+        <set name="price" value="0" />
+        <set name="durability" value="122;134" />
+        <stats>
+            <add stat="attack_damage" value="36;40;43;48" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="146;164" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="170" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WN152" type="Weapon" name="Niyaha Phantom(5H)">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN152.bmp" />
+        <set name="weight" value="42" />
+        <set name="price" value="0" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="44;48;52;54" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="164;179" />
+            <add stat="attack_range" value="200" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="90" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="185" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WN153" type="Weapon" name="Acala Phantom(5H)">
+        <set name="weapon_type" value="Phantom" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Phantom\itWN153.bmp" />
+        <set name="weight" value="46" />
+        <set name="price" value="0" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="48;51;56;58" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="173;183" />
+            <add stat="attack_range" value="205" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="195" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+
+</list>

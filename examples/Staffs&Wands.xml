@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../schemas/items.xsd">
+
+    <item id="WM109" type="Weapon" name="Ghost">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM109.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="30000" />
+        <set name="durability" value="100;100" />
+        <stats>
+            <add stat="attack_damage" value="16;16;22;22" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="100;100" />
+            <add stat="attack_range" value="175" />
+            <add stat="critical_rate" value="7" />
+            <add stat="block_rating" value="4;4" />
+        </stats>
+        <req>
+            <base stat="level" value="40" />
+        </req>
+    </item>
+    <item id="WM131" type="Weapon" name="Security Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM131.bmp" />
+        <set name="weight" value="1" />
+        <set name="price" value="0" />
+        <stats>
+            <add stat="attack_damage" value="32767;32767;32767;32767" />
+            <add stat="attack_speed" value="10" />
+            <add stat="attack_rating" value="100;100" />
+            <add stat="attack_range" value="1000" />
+            <add stat="critical_rate" value="100" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WM121" type="Weapon" name="Gothic Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM121.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="1800000" />
+        <set name="durability" value="70;70" />
+        <stats>
+            <add stat="attack_damage" value="53;53;60;60" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="180;180" />
+            <add stat="attack_range" value="200" />
+            <add stat="block_rating" value="13;13" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+        </req>
+    </item>
+    <item id="WM101" type="Weapon" name="Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM101.bmp" />
+        <set name="weight" value="2" />
+        <set name="price" value="70" />
+        <set name="durability" value="18;34" />
+        <stats>
+            <add stat="attack_damage" value="1;1;3;4" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="20;25" />
+            <add stat="attack_range" value="140;" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WM102" type="Weapon" name="Sphere Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM102.bmp" />
+        <set name="weight" value="3" />
+        <set name="price" value="480" />
+        <set name="durability" value="30;48" />
+        <stats>
+            <add stat="attack_damage" value="2;2;4;5" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="26;31" />
+            <add stat="attack_range" value="140;" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+        </req>
+    </item>
+    <item id="WM103" type="Weapon" name="Obi Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM103.bmp" />
+        <set name="weight" value="3" />
+        <set name="price" value="800" />
+        <set name="durability" value="27;44" />
+        <stats>
+            <add stat="attack_damage" value="3;4;6;7" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="30;36" />
+            <add stat="attack_range" value="145;" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="spirit" value="40" />
+        </req>
+    </item>
+    <item id="WM104" type="Weapon" name="Root Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM104.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="1500" />
+        <set name="durability" value="38;55" />
+        <stats>
+            <add stat="attack_damage" value="5;6;8;9" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="32;38" />
+            <add stat="attack_range" value="160" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="3;3" />
+        </stats>
+        <req>
+            <base stat="level" value="7" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="27" />
+        </req>
+    </item>
+    <item id="WM105" type="Weapon" name="Poly Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM105.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="3700" />
+        <set name="durability" value="40;50" />
+        <stats>
+            <add stat="attack_damage" value="7;8;11;13" />
+            <add stat="attack_speed" value="5" />
+            <add stat="attack_rating" value="30;40" />
+            <add stat="attack_range" value="160;" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="3;3" />
+        </stats>
+        <req>
+            <base stat="level" value="11" />
+            <base stat="spirit" value="53" />
+            <base stat="talent" value="30" />
+        </req>
+    </item>
+    <item id="WM106" type="Weapon" name="Elven Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM106.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="7000" />
+        <set name="durability" value="32;44" />
+        <stats>
+            <add stat="attack_damage" value="6;7;9;11" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="34;44" />
+            <add stat="attack_range" value="150;" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="16" />
+            <base stat="spirit" value="62" />
+            <base stat="talent" value="36" />
+        </req>
+    </item>
+    <item id="WM107" type="Weapon" name="Dryad Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM107.bmp" />
+        <set name="weight" value="5" />
+        <set name="price" value="12000" />
+        <set name="durability" value="38;50" />
+        <stats>
+            <add stat="attack_damage" value="7;9;10;12" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="38;50" />
+            <add stat="attack_range" value="150;" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="22" />
+            <base stat="spirit" value="70" />
+            <base stat="talent" value="36" />
+        </req>
+    </item>
+    <item id="WM108" type="Weapon" name="Meditation staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM108.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="19000" />
+        <set name="durability" value="44;58" />
+        <stats>
+            <add stat="attack_damage" value="8;10;12;15" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="43;54" />
+            <add stat="attack_range" value="165;" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="5;5" />
+        </stats>
+        <req>
+            <base stat="level" value="30" />
+            <base stat="strength" value="35" />
+            <base stat="spirit" value="65" />
+            <base stat="talent" value="36" />
+        </req>
+    </item>
+    <item id="WM109" type="Weapon" name="Skull Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM109.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="27000" />
+        <set name="durability" value="52;66" />
+        <stats>
+            <add stat="attack_damage" value="10;12;15;17" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="52;66" />
+            <add stat="attack_range" value="165" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="4;4" />
+        </stats>
+        <req>
+            <base stat="level" value="37" />
+            <base stat="strength" value="40" />
+            <base stat="spirit" value="70" />
+            <base stat="talent" value="42" />
+        </req>
+    </item>
+    <item id="WM110" type="Weapon" name="Mage Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM110.bmp" />
+        <set name="weight" value="10" />
+        <set name="price" value="39000" />
+        <set name="durability" value="58;74" />
+        <stats>
+            <add stat="attack_damage" value="12;14;17;19" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="58;74" />
+            <add stat="attack_range" value="170;" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="6;6" />
+        </stats>
+        <req>
+            <base stat="level" value="44" />
+            <base stat="strength" value="44" />
+            <base stat="spirit" value="75" />
+            <base stat="talent" value="47" />
+        </req>
+    </item>
+    <item id="WM111" type="Weapon" name="Faith Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM111.bmp" />
+        <set name="weight" value="9" />
+        <set name="price" value="46000" />
+        <set name="durability" value="54;72" />
+        <stats>
+            <add stat="attack_damage" value="10;12;14;16" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="50;70" />
+            <add stat="attack_range" value="155" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="50" />
+            <base stat="spirit" value="90" />
+            <base stat="talent" value="60" />
+        </req>
+    </item>
+    <item id="WM112" type="Weapon" name="Lofty Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM112.bmp" />
+        <set name="weight" value="12" />
+        <set name="price" value="54000" />
+        <set name="durability" value="64;82" />
+        <stats>
+            <add stat="attack_damage" value="15;18;20;23" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="72;90" />
+            <add stat="attack_range" value="170" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="55" />
+            <base stat="spirit" value="100" />
+            <base stat="talent" value="70" />
+        </req>
+    </item>
+    <item id="WM113" type="Weapon" name="Arch Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM113.bmp" />
+        <set name="weight" value="12" />
+        <set name="price" value="63000" />
+        <set name="durability" value="64;82" />
+        <stats>
+            <add stat="attack_damage" value="10;13;16;19" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="65;84" />
+            <add stat="attack_range" value="155" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="60" />
+            <base stat="spirit" value="115" />
+            <base stat="talent" value="80" />
+        </req>
+    </item>
+    <item id="WM114" type="Weapon" name="Chaos Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM114.bmp" />
+        <set name="weight" value="16" />
+        <set name="price" value="72000" />
+        <set name="durability" value="55;70" />
+        <stats>
+            <add stat="attack_damage" value="16;19;24;27" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="78;98" />
+            <add stat="attack_range" value="175" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="6;6" />
+        </stats>
+        <req>
+            <base stat="level" value="65" />
+            <base stat="strength" value="50" />
+            <base stat="spirit" value="125" />
+            <base stat="talent" value="80" />
+        </req>
+    </item>
+    <item id="WM115" type="Weapon" name="Rune Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM115.bmp" />
+        <set name="weight" value="14" />
+        <set name="price" value="80000" />
+        <set name="durability" value="72;92" />
+        <stats>
+            <add stat="attack_damage" value="12;15;17;20" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="100;125" />
+            <add stat="attack_range" value="180" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="70" />
+            <base stat="strength" value="50" />
+            <base stat="spirit" value="132" />
+            <base stat="talent" value="84" />
+        </req>
+    </item>
+    <item id="WM116" type="Weapon" name="Rune Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM116.bmp" />
+        <set name="weight" value="20" />
+        <set name="price" value="160000" />
+        <set name="durability" value="80;100" />
+        <stats>
+            <add stat="attack_damage" value="22;24;28;30" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="110;130" />
+            <add stat="attack_range" value="185" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="75" />
+            <base stat="strength" value="50" />
+            <base stat="spirit" value="140" />
+            <base stat="talent" value="86" />
+        </req>
+    </item>
+    <item id="WM117" type="Weapon" name="Apostle Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM117.bmp" />
+        <set name="weight" value="20" />
+        <set name="price" value="260000" />
+        <set name="durability" value="90;108" />
+        <stats>
+            <add stat="attack_damage" value="20;23;29;31" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="118;140" />
+            <add stat="attack_range" value="165" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="55" />
+            <base stat="spirit" value="146" />
+            <base stat="talent" value="88" />
+        </req>
+    </item>
+    <item id="WM118" type="Weapon" name="Relic Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM118.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="420000" />
+        <set name="durability" value="98;116" />
+        <stats>
+            <add stat="attack_damage" value="28;30;35;38" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="130;148" />
+            <add stat="attack_range" value="190" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="60" />
+            <base stat="spirit" value="154" />
+            <base stat="talent" value="88" />
+        </req>
+    </item>
+    <item id="WM119" type="Weapon" name="Dragon Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM119.bmp" />
+        <set name="weight" value="32" />
+        <set name="price" value="700000" />
+        <set name="durability" value="110;125" />
+        <stats>
+            <add stat="attack_damage" value="32;35;40;42" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="137;155" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="65" />
+            <base stat="spirit" value="162" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM120" type="Weapon" name="Wyvern Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM120.bmp" />
+        <set name="weight" value="27" />
+        <set name="price" value="1200000" />
+        <set name="durability" value="122;134" />
+        <stats>
+            <add stat="attack_damage" value="28;30;37;39" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="146;164" />
+            <add stat="attack_range" value="180" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="170" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM121" type="Weapon" name="Astral Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM121.bmp" />
+        <set name="weight" value="37" />
+        <set name="price" value="2000000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="40;43;48;50" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="155;175" />
+            <add stat="attack_range" value="200" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="10;10" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="180" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM122" type="Weapon" name="Oracle Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM122.bmp" />
+        <set name="weight" value="32" />
+        <set name="price" value="2100000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="36;40;43;45" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="164;174" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="185" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM123" type="Weapon" name="Celestial Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM123.bmp" />
+        <set name="weight" value="46" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="48;51;56;58" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="173;183" />
+            <add stat="attack_range" value="205" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="195" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM124" type="Weapon" name="Astral Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM124.bmp" />
+        <set name="weight" value="56" />
+        <set name="price" value="2300000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="60;63;77;79" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="183;193" />
+            <add stat="attack_range" value="210" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="105" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="205" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM125" type="Weapon" name="Freyja Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM125.bmp" />
+        <set name="weight" value="62" />
+        <set name="price" value="2400000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="74;77;92;94" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="193;203" />
+            <add stat="attack_range" value="215" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="10;10" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="212" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WM126" type="Weapon" name="Freyja Wand">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM126.bmp" />
+        <set name="weight" value="40" />
+        <set name="price" value="2400000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="61;64;78;80" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="193;203" />
+            <add stat="attack_range" value="215" />
+            <add stat="critical_rate" value="20" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="212" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WM127" type="Weapon" name="Cajado Astral">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM127.bmp" />
+        <set name="weight" value="52" />
+        <set name="price" value="1450000" />
+        <set name="durability" value="180;190" />
+        <stats>
+            <add stat="attack_damage" value="81;85;92;96" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="194;208" />
+            <add stat="attack_range" value="210" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="10;10" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="280" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM128" type="Weapon" name="Mythology Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM128.bmp" />
+        <set name="weight" value="68" />
+        <set name="price" value="2900000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="88;91;107;109" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="203;213" />
+            <add stat="attack_range" value="220" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="11;11" />
+        </stats>
+        <req>
+            <base stat="level" value="110" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="219" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WM129" type="Weapon" name="Deadly Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM129.bmp" />
+        <set name="weight" value="74" />
+        <set name="price" value="3200000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="100;103;119;122" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="213;223" />
+            <add stat="attack_range" value="225" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="112" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="226" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WM130" type="Weapon" name="Flame Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM130.bmp" />
+        <set name="weight" value="80" />
+        <set name="price" value="3400000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="112;115;131;134" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="223;233" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="233" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WM131" type="Weapon" name="Verus Staff">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM131.bmp" />
+        <set name="weight" value="80" />
+        <set name="price" value="3400000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="118;121;137;140" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="228;238" />
+            <add stat="attack_range" value="230" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="75" />
+            <base stat="spirit" value="233" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WM132" type="Weapon" name="Cajado Deadly">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM132.bmp" />
+        <set name="weight" value="80" />
+        <set name="price" value="1980000" />
+        <set name="durability" value="220;230" />
+        <stats>
+            <add stat="attack_damage" value="112;116;123;127" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="248;266" />
+            <add stat="attack_range" value="210" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="10;10" />
+        </stats>
+        <req>
+            <base stat="level" value="134" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="420" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM151" type="Weapon" name="Wyvern Wand(5H)">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM151.bmp" />
+        <set name="weight" value="27" />
+        <set name="price" value="1980000" />
+        <set name="durability" value="122;134" />
+        <stats>
+            <add stat="attack_damage" value="28;30;37;39" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="146;164" />
+            <add stat="attack_range" value="180" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="170" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM152" type="Weapon" name="Oracle Wand(5H)">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM152.bmp" />
+        <set name="weight" value="32" />
+        <set name="price" value="1980000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="36;40;43;45" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="164;174" />
+            <add stat="attack_range" value="195" />
+            <add stat="critical_rate" value="19" />
+        </stats>
+        <req>
+            <base stat="level" value="90" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="185" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WM153" type="Weapon" name="Celestial Staff(5H)">
+        <set name="weapon_type" value="Staff" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Staff\itWM153.bmp" />
+        <set name="weight" value="46" />
+        <set name="price" value="1980000" />
+        <set name="durability" value="130;150" />
+        <stats>
+            <add stat="attack_damage" value="48;51;56;58" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="173;183" />
+            <add stat="attack_range" value="205" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="70" />
+            <base stat="spirit" value="195" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+
+</list>

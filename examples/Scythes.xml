@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../schemas/items.xsd">
+    <item id="WP109" type="Weapon" name="Devil Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP109.bmp" />
+        <set name="weight" value="31" />
+        <set name="price" value="30000" />
+        <set name="durability" value="100;100" />
+        <stats>
+            <add stat="attack_damage" value="18;18;35;35" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="135;135" />
+            <add stat="critical_rate" value="13" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="40" />
+        </req>
+    </item>
+    <item id="WP121" type="Weapon" name="Hellfire Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP121.bmp" />
+        <set name="weight" value="50" />
+        <set name="price" value="1800000" />
+        <set name="durability" value="70;70" />
+        <stats>
+            <add stat="attack_damage" value="58;58;98;98" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="250;250" />
+            <add stat="critical_rate" value="25" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+        </req>
+    </item>
+    <item id="WP101" type="Weapon" name="Pole">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP101.bmp" />
+        <set name="weight" value="4" />
+        <set name="price" value="140" />
+        <set name="durability" value="28;35" />
+        <stats>
+            <add stat="attack_damage" value="1;1;4;6" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="40;45" />
+            <add stat="critical_rate" value="3" />
+        </stats>
+        <req>
+            <base stat="strength" value="30" />
+        </req>
+    </item>
+    <item id="WP102" type="Weapon" name="Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP102.bmp" />
+        <set name="weight" value="7" />
+        <set name="price" value="550" />
+        <set name="durability" value="23;48" />
+        <stats>
+            <add stat="attack_damage" value="2;3;5;7" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="45;54" />
+            <add stat="critical_rate" value="3" />
+        </stats>
+        <req>
+            <base stat="strength" value="32" />
+            <base stat="talent" value="24" />
+        </req>
+    </item>
+    <item id="WP103" type="Weapon" name="Bill">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP103.bmp" />
+        <set name="weight" value="12" />
+        <set name="price" value="1100" />
+        <set name="durability" value="32;45" />
+        <stats>
+            <add stat="attack_damage" value="4;5;7;9" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="50;62" />
+            <add stat="critical_rate" value="3" />
+        </stats>
+        <req>
+            <base stat="level" value="7" />
+            <base stat="strength" value="36" />
+            <base stat="talent" value="26" />
+        </req>
+    </item>
+    <item id="WP104" type="Weapon" name="Halberd">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP104.bmp" />
+        <set name="weight" value="14" />
+        <set name="price" value="2300" />
+        <set name="durability" value="40;52" />
+        <stats>
+            <add stat="attack_damage" value="6;8;10;13" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="55;66" />
+            <add stat="critical_rate" value="5" />
+            <add stat="block_rating" value="6;6" />
+        </stats>
+        <req>
+            <base stat="level" value="10" />
+            <base stat="strength" value="45" />
+            <base stat="talent" value="30" />
+        </req>
+    </item>
+    <item id="WP105" type="Weapon" name="Horn Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP105.bmp" />
+        <set name="weight" value="19" />
+        <set name="price" value="5200" />
+        <set name="durability" value="37;61" />
+        <stats>
+            <add stat="attack_damage" value="7;9;14;16" />
+            <add stat="attack_speed" value="5" />
+            <add stat="attack_rating" value="46;65" />
+            <add stat="critical_rate" value="7" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="14" />
+            <base stat="strength" value="50" />
+            <base stat="spirit" value="24" />
+            <base stat="talent" value="32" />
+        </req>
+    </item>
+    <item id="WP106" type="Weapon" name="Trident">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP106.bmp" />
+        <set name="weight" value="21" />
+        <set name="price" value="10000" />
+        <set name="durability" value="42;60" />
+        <stats>
+            <add stat="attack_damage" value="7;10;16;19" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="52;74" />
+            <add stat="critical_rate" value="8" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="16" />
+            <base stat="strength" value="64" />
+            <base stat="talent" value="40" />
+        </req>
+    </item>
+    <item id="WP107" type="Weapon" name="Enriched Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP107.bmp" />
+        <set name="weight" value="24" />
+        <set name="price" value="17000" />
+        <set name="durability" value="45;65" />
+        <stats>
+            <add stat="attack_damage" value="8;11;20;23" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="58;81" />
+            <add stat="critical_rate" value="10" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="22" />
+            <base stat="strength" value="74" />
+            <base stat="talent" value="45" />
+        </req>
+    </item>
+    <item id="WP108" type="Weapon" name="Double Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP108.bmp" />
+        <set name="weight" value="28" />
+        <set name="price" value="24000" />
+        <set name="durability" value="50;69" />
+        <stats>
+            <add stat="attack_damage" value="9;12;24;27" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="66;90" />
+            <add stat="critical_rate" value="11" />
+            <add stat="block_rating" value="8;8" />
+        </stats>
+        <req>
+            <base stat="level" value="30" />
+            <base stat="strength" value="85" />
+            <base stat="talent" value="50" />
+        </req>
+    </item>
+    <item id="WP109" type="Weapon" name="Evil Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP109.bmp" />
+        <set name="weight" value="31" />
+        <set name="price" value="30000" />
+        <set name="durability" value="56;75" />
+        <stats>
+            <add stat="attack_damage" value="11;13;28;32" />
+            <add stat="attack_speed" value="5" />
+            <add stat="attack_rating" value="70;90" />
+            <add stat="critical_rate" value="13" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="37" />
+            <base stat="strength" value="90" />
+            <base stat="spirit" value="30" />
+            <base stat="talent" value="54" />
+        </req>
+    </item>
+    <item id="WP110" type="Weapon" name="Silver Bird">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP110.bmp" />
+        <set name="weight" value="33" />
+        <set name="price" value="38000" />
+        <set name="durability" value="62;84" />
+        <stats>
+            <add stat="attack_damage" value="13;15;33;36" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="75;94" />
+            <add stat="critical_rate" value="14" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="44" />
+            <base stat="strength" value="96" />
+            <base stat="talent" value="60" />
+        </req>
+    </item>
+    <item id="WP111" type="Weapon" name="Chaos Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP111.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="45000" />
+        <set name="durability" value="50;76" />
+        <stats>
+            <add stat="attack_damage" value="14;17;36;39" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="78;98" />
+            <add stat="critical_rate" value="15" />
+            <add stat="block_rating" value="13;13" />
+        </stats>
+        <req>
+            <base stat="level" value="50" />
+            <base stat="strength" value="90" />
+            <base stat="spirit" value="36" />
+            <base stat="talent" value="70" />
+        </req>
+    </item>
+    <item id="WP112" type="Weapon" name="Titan Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP112.bmp" />
+        <set name="weight" value="36" />
+        <set name="price" value="54000" />
+        <set name="durability" value="82;96" />
+        <stats>
+            <add stat="attack_damage" value="16;19;40;44" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="95;110" />
+            <add stat="critical_rate" value="15" />
+            <add stat="block_rating" value="14;14" />
+        </stats>
+        <req>
+            <base stat="level" value="55" />
+            <base stat="strength" value="110" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP113" type="Weapon" name="STYX Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP113.bmp" />
+        <set name="weight" value="38" />
+        <set name="price" value="62000" />
+        <set name="durability" value="70;96" />
+        <stats>
+            <add stat="attack_damage" value="18;22;45;49" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="105;122" />
+            <add stat="critical_rate" value="14" />
+            <add stat="block_rating" value="11;11" />
+        </stats>
+        <req>
+            <base stat="level" value="60" />
+            <base stat="strength" value="125" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP114" type="Weapon" name="Dragon Wing">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP114.bmp" />
+        <set name="weight" value="35" />
+        <set name="price" value="71000" />
+        <set name="durability" value="92;105" />
+        <stats>
+            <add stat="attack_damage" value="21;23;49;53" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="120;135" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="12;12" />
+        </stats>
+        <req>
+            <base stat="level" value="65" />
+            <base stat="strength" value="120" />
+            <base stat="spirit" value="40" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP115" type="Weapon" name="Butterfly">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP115.bmp" />
+        <set name="weight" value="39" />
+        <set name="price" value="79000" />
+        <set name="durability" value="82;100" />
+        <stats>
+            <add stat="attack_damage" value="23;25;52;56" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="130;151" />
+            <add stat="critical_rate" value="16" />
+            <add stat="block_rating" value="14;14" />
+        </stats>
+        <req>
+            <base stat="level" value="70" />
+            <base stat="strength" value="130" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP116" type="Weapon" name="Mystic Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP116.bmp" />
+        <set name="weight" value="44" />
+        <set name="price" value="170000" />
+        <set name="durability" value="93;110" />
+        <stats>
+            <add stat="attack_damage" value="26;28;58;61" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="144;160" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="13;13" />
+        </stats>
+        <req>
+            <base stat="level" value="75" />
+            <base stat="strength" value="140" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP117" type="Weapon" name="Hyper Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP117.bmp" />
+        <set name="weight" value="47" />
+        <set name="price" value="280000" />
+        <set name="durability" value="100;118" />
+        <stats>
+            <add stat="attack_damage" value="29;31;63;66" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="150;169" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="13;13" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="146" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP118" type="Weapon" name="Oracle Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP118.bmp" />
+        <set name="weight" value="51" />
+        <set name="price" value="460000" />
+        <set name="durability" value="108;128" />
+        <stats>
+            <add stat="attack_damage" value="32;35;68;71" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="158;178" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="14;14" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="152" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP119" type="Weapon" name="Immortal Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP119.bmp" />
+        <set name="weight" value="55" />
+        <set name="price" value="750000" />
+        <set name="durability" value="120;137" />
+        <stats>
+            <add stat="attack_damage" value="37;39;73;76" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="166;185" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="14;14" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="157" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP120" type="Weapon" name="eXtreme Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP120.bmp" />
+        <set name="weight" value="59" />
+        <set name="price" value="1300000" />
+        <set name="durability" value="127;146" />
+        <stats>
+            <add stat="attack_damage" value="41;43;78;82" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="170;192" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="14;14" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="162" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP121" type="Weapon" name="Phoenix Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP121.bmp" />
+        <set name="weight" value="64" />
+        <set name="price" value="2100000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="45;48;85;88" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="176;199" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="15;15" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="170" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP122" type="Weapon" name="Dreadnaught Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP122.bmp" />
+        <set name="weight" value="71" />
+        <set name="price" value="2200000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="49;52;92;95" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="181;199" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="15;15" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="178" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP123" type="Weapon" name="Reaper Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP123.bmp" />
+        <set name="weight" value="76" />
+        <set name="price" value="2300000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="53;56;99;102" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="187;210" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="16;16" />
+        </stats>
+        <req>
+            <base stat="level" value="102" />
+            <base stat="strength" value="184" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP124" type="Weapon" name="Dragon Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP124.bmp" />
+        <set name="weight" value="80" />
+        <set name="price" value="2400000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="60;63;106;109" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="193;216" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="17;17" />
+        </stats>
+        <req>
+            <base stat="level" value="105" />
+            <base stat="strength" value="191" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP125" type="Weapon" name="Phoenix Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP125.bmp" />
+        <set name="weight" value="85" />
+        <set name="price" value="2500000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="67;70;114;117" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="205;228" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="17;17" />
+        </stats>
+        <req>
+            <base stat="level" value="108" />
+            <base stat="strength" value="198" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WP126" type="Weapon" name="Foice Twin">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP126.bmp" />
+        <set name="weight" value="90" />
+        <set name="price" value="2050000" />
+        <set name="durability" value="186;208" />
+        <stats>
+            <add stat="attack_damage" value="66;70;125;130" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="224;245" />
+            <add stat="critical_rate" value="19" />
+            <add stat="block_rating" value="17;17" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="206" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP127" type="Weapon" name="Mythology Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP127.bmp" />
+        <set name="weight" value="91" />
+        <set name="price" value="3000000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="74;77;122;125" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="217;240" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="18;18" />
+        </stats>
+        <req>
+            <base stat="level" value="110" />
+            <base stat="strength" value="205" />
+            <base stat="talent" value="95" />
+        </req>
+    </item>
+    <item id="WP128" type="Weapon" name="Deadly Spear">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP128.bmp" />
+        <set name="weight" value="97" />
+        <set name="price" value="3300000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="84;87;132;135" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="229;252" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="18;18" />
+        </stats>
+        <req>
+            <base stat="level" value="112" />
+            <base stat="strength" value="212" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WP129" type="Weapon" name="Flame Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP129.bmp" />
+        <set name="weight" value="103" />
+        <set name="price" value="3500000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="100;103;142;145" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="244;264" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="18;18" />
+        </stats>
+        <req>
+            <base stat="level" value="116" />
+            <base stat="strength" value="219" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WP130" type="Weapon" name="Verus Scythe">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP130.bmp" />
+        <set name="weight" value="103" />
+        <set name="price" value="3500000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="108;111;147;150" />
+            <add stat="attack_speed" value="8" />
+            <add stat="attack_rating" value="251;270" />
+            <add stat="critical_rate" value="20" />
+            <add stat="block_rating" value="18;18" />
+        </stats>
+        <req>
+            <base stat="level" value="120" />
+            <base stat="strength" value="219" />
+            <base stat="talent" value="100" />
+        </req>
+    </item>
+    <item id="WP131" type="Weapon" name="Foice Diabolic">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP131.bmp" />
+        <set name="weight" value="115" />
+        <set name="price" value="2550000" />
+        <set name="durability" value="240;258" />
+        <stats>
+            <add stat="attack_damage" value="78;85;147;153" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="258;276" />
+            <add stat="critical_rate" value="21" />
+            <add stat="block_rating" value="17;17" />
+        </stats>
+        <req>
+            <base stat="level" value="134" />
+            <base stat="strength" value="250" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP151" type="Weapon" name="eXtreme Spear(5H)">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP151.bmp" />
+        <set name="weight" value="59" />
+        <set name="price" value="2550000" />
+        <set name="durability" value="127;146" />
+        <stats>
+            <add stat="attack_damage" value="41;43;78;82" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="170;192" />
+            <add stat="critical_rate" value="17" />
+            <add stat="block_rating" value="14;14" />
+        </stats>
+        <req>
+            <base stat="level" value="80" />
+            <base stat="strength" value="162" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP152" type="Weapon" name="Dreadnaught Spear(5H)">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP152.bmp" />
+        <set name="weight" value="71" />
+        <set name="price" value="2550000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="49;52;92;95" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="181;199" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="15;15" />
+        </stats>
+        <req>
+            <base stat="level" value="90" />
+            <base stat="strength" value="178" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP153" type="Weapon" name="Reaper Scythe(5H)">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP153.bmp" />
+        <set name="weight" value="76" />
+        <set name="price" value="2550000" />
+        <set name="durability" value="135;155" />
+        <stats>
+            <add stat="attack_damage" value="53;56;99;102" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="187;210" />
+            <add stat="critical_rate" value="18" />
+            <add stat="block_rating" value="16;16" />
+        </stats>
+        <req>
+            <base stat="level" value="100" />
+            <base stat="strength" value="184" />
+            <base stat="talent" value="90" />
+        </req>
+    </item>
+    <item id="WP111" type="Weapon" name="Injustice">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP111.bmp" />
+        <set name="weight" value="30" />
+        <set name="price" value="45000" />
+        <set name="durability" value="76;76" />
+        <stats>
+            <add stat="attack_damage" value="17;17;39;39" />
+            <add stat="attack_speed" value="6" />
+            <add stat="attack_rating" value="85;85" />
+            <add stat="critical_rate" value="15" />
+            <add stat="block_rating" value="13;13" />
+        </stats>
+        <req>
+            <base stat="level" value="50" />
+            <base stat="strength" value="90" />
+            <base stat="spirit" value="46" />
+            <base stat="talent" value="80" />
+        </req>
+    </item>
+    <item id="WP105" type="Weapon" name="Revenge">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP105.bmp" />
+        <set name="weight" value="22" />
+        <set name="price" value="23000" />
+        <set name="durability" value="65;65" />
+        <stats>
+            <add stat="attack_damage" value="8;8;27;27" />
+            <add stat="attack_speed" value="5" />
+            <add stat="attack_rating" value="66;66" />
+            <add stat="critical_rate" value="7" />
+            <add stat="block_rating" value="7;7" />
+        </stats>
+        <req>
+            <base stat="level" value="12" />
+            <base stat="strength" value="54" />
+            <base stat="talent" value="40" />
+        </req>
+    </item>
+    <item id="WP110" type="Weapon" name="Justice">
+        <set name="weapon_type" value="Scythe" />
+        <set name="body_part" value="lhand" />
+        <set name="default_action" value="EQUIP" />
+        <set name="image" value="sinimages\items\weapons\Scythe\itWP110.bmp" />
+        <set name="weight" value="33" />
+        <set name="price" value="50000" />
+        <set name="durability" value="84;84" />
+        <stats>
+            <add stat="attack_damage" value="17;17;37;37" />
+            <add stat="attack_speed" value="7" />
+            <add stat="attack_rating" value="94;94" />
+            <add stat="critical_rate" value="14" />
+            <add stat="block_rating" value="9;9" />
+        </stats>
+        <req>
+            <base stat="level" value="44" />
+            <base stat="strength" value="100" />
+            <base stat="talent" value="70" />
+        </req>
+    </item>
+
+</list>
