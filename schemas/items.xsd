@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Start of Given Stats -->
+    <xs:simpleType name="givenStatsType">
+        <xs:restriction base="xs:token">
+            <!-- Weapons -->
+            <xs:enumeration value="attack_damage" />
+            <xs:enumeration value="attack_speed" />
+            <xs:enumeration value="critical_rate" />
+            <xs:enumeration value="attack_range" />
+            <xs:enumeration value="attack_rating" />
+
+            <!-- Boots -->
+            <xs:enumeration value="movement_speed" />
+
+            <!-- Armor, Rober & Shields -->
+            <xs:enumeration value="absorption" />
+            <xs:enumeration value="block_rating" />
+            <xs:enumeration value="defense" />
+
+            <!-- Bracelets -->
+            <xs:enumeration value="potion_space" />
+
+            <!-- Rings & Necklage -->
+            <xs:enumeration value="mana_recovery" />
+            <xs:enumeration value="stamina_recovery" />
+            <xs:enumeration value="health_recovery" />
+
+            <!-- Rings & Necklage  (?)-->
+            <xs:enumeration value="spec_mana_recovery" />
+            <xs:enumeration value="spec_stamina_recovery" />
+            <xs:enumeration value="spec_health_recovery" />
+
+            <!-- Various -->
+            <xs:enumeration value="max_health" />
+            <xs:enumeration value="max_mana" />
+            <xs:enumeration value="max_stamina" />
+
+            <!-- Resistances -->
+            <xs:enumeration value="bionic_resistance" />
+            <xs:enumeration value="wind_resistance" />
+            <xs:enumeration value="water_resistance" />
+            <xs:enumeration value="fire_resistance" />
+            <xs:enumeration value="ice_resistance" />
+            <xs:enumeration value="lighting_resistance" />
+            <xs:enumeration value="poison_resistance" />
+            <xs:enumeration value="earth_resistance" />
+
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="setStatType">
+        <xs:attribute name="stat" type="givenStatsType" use="required" />
+        <xs:attribute name="value" type="xs:token" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="setStatsType" mixed="true">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element name="set" type="setStatType" /> <!-- Force value -->
+            <xs:element name="add" type="setStatType" /> <!-- Add to current value -->
+            <xs:element name="sub" type="setStatType" /> <!-- Substract from current value -->
+        </xs:choice>
+    </xs:complexType>
+    <!-- End of Given Stats -->
+
+    <!-- Start of Global Set Types -->
+    <xs:complexType name="setGlobalType">
+        <xs:attribute name="name" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <!-- All Items -->
+                    <xs:enumeration value="armor_type" />
+                    <xs:enumeration value="weapon_type" />
+
+                    <xs:enumeration value="default_action" />
+                    <xs:enumeration value="body_part" />
+                    <xs:enumeration value="image" />
+
+                    <xs:enumeration value="price" />
+                    <xs:enumeration value="weight" />
+                    <xs:enumeration value="durability" />
+
+                    <!-- Unique Items -->
+                    <xs:enumeration value="unique_item" />
+                    <xs:enumeration value="max_ocurrency" />
+
+                    <!-- Premium Items -->
+                    <xs:enumeration value="premium_item" />
+                    <xs:enumeration value="duration" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="value" type="xs:token" use="required" />
+    </xs:complexType>
+    <!-- End of Global Set Types -->
+
+    <!-- Start of Required Stats-->
+    <xs:simpleType name="StatsType">
+        <xs:restriction base="xs:token">
+            <xs:enumeration value="level" />
+
+            <xs:enumeration value="strength" />
+            <xs:enumeration value="spirit" />
+            <xs:enumeration value="talent" />
+            <xs:enumeration value="agility" />
+            <xs:enumeration value="vitality" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="baseStatType">
+        <xs:attribute name="stat" type="StatsType" use="required" />
+        <xs:attribute name="value" type="xs:decimal" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="reqStatsType" mixed="true">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element name="base" type="baseStatType" />
+        </xs:choice>
+    </xs:complexType>
+    <!-- End of Required Stats-->
+
+    <xs:complexType name="itemType">
+
+        <xs:sequence maxOccurs="1" minOccurs="1">
+            <xs:element name="set" maxOccurs="unbounded" minOccurs="1" type="setGlobalType"  /> <!-- Core Stats -->
+            <xs:element name="stats" maxOccurs="1" minOccurs="1" type="setStatsType" /> <!-- Assigned Stats -->
+            <xs:element name="req" maxOccurs="1" minOccurs="1" type="reqStatsType" /> <!-- Required Stats -->
+            <!-- xs:element name="cond" maxOccurs="1" minOccurs="0" type="xs:string" /--> <!-- Conditionals for equip/usage -->
+        </xs:sequence>
+
+        <xs:attribute name="id" type="xs:normalizedString" use="required" />
+        <xs:attribute name="name" type="xs:normalizedString" use="required" />
+        <xs:attribute name="type" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:token">
+                    <xs:enumeration value="Defense" /> <!-- Armor, Robe, Shield, Cosmetic Armor (?) -->
+                    <xs:enumeration value="Accesory" /> <!-- Bracelet, Ring, Necklage, Sheltom, Earrings -->
+                    <xs:enumeration value="Weapon" /> <!-- Javelin, Mace, Sword, Wand, Staff, Big Sword, Dagger, Bow, HandBow -->
+                    <xs:enumeration value="QuestItem" /> <!-- Quest Items -->
+                    <xs:enumeration value="EtcItem" /> <!-- Crystals, Potions, Aging Items, Scrolls, Hair dyes, Premium Items -->
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:element name="list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="item" type="itemType" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
